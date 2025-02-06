@@ -21,7 +21,7 @@ tags:
 1. **Create a `posts` folder**:
     This will store all your blog drafts in Obsidian.
 	Also note where all your Obsidian directories are using the following steps:
-	 ![[Pasted image 20250206151620.png]]
+	 !![Image Description](/images/Pasted%20image%2020250206151620.png)
 2. **Note structure**:
     Write posts in Markdown with Hugo-compatible frontmatter:
     ```markdown
@@ -163,7 +163,7 @@ for filename in os.listdir(posts_dir):
         with open(filepath, "r") as file:
             content = file.read()
 
-        # Find all image links in the format [[image.png]]
+        # Find all image links in the format ![Image Description](/images/image.png)
         images = re.findall(r'\[\[([^]]*\.png)\]\]', content)
 
         # Replace image links and ensure URLs are correctly formatted
@@ -205,13 +205,13 @@ print("Markdown files processed and images copied successfully.")
     - **Sign Up / Log In**: Go to [vercel.com](https://vercel.com) and sign in with your GitHub.
       
     - **Import Your Project**: Click on **"New Project"** and import your GitHub repository.
-      ![[Pasted image 20250206150958.png]]
+      !![Image Description](/images/Pasted%20image%2020250206150958.png)
     - **Configure Build Settings**:
         - **Framework Preset**: Select **"Hugo"**.
-          ![[Pasted image 20250206151126.png]]
+          !![Image Description](/images/Pasted%20image%2020250206151126.png)
         - **Output Directory**: Set to `public`.
     - **Deploy**: Click **"Deploy"**. Vercel will build your Hugo site and provide you with a live URL.
-      ![[Pasted image 20250206151242.png]]
+      !![Image Description](/images/Pasted%20image%2020250206151242.png)
     
     ### Option B: Deploy via the Vercel CLI
     1. **Install Vercel CLI** (if not already installed):
