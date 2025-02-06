@@ -40,21 +40,23 @@ I decided that I will be starting this blog just so I can post more nerdy stuff 
 
 ### Install Hugo
 
-3. **Prerequisites**:
+1. **Prerequisites**:
     - Install [Git](https://git-scm.com) and [Go](https://go.dev/dl).
     - Install Hugo globally:
         ```bash
         brew install hugo # Mac
         choco install hugo # Windows
         ```
-4. **Create a new site**:
+2. **Create a new site**:
     ```bash
     hugo new site my-blog && cd my-blog
     git init
     ```
 ### Add a Theme (Terminal Theme Example)
+
 You can get the theme of your choice from [Hugo Themes](https://themes.gohugo.io/).
-5. **Install as a submodule**:
+
+3. **Install as a submodule**:
     ```bash
     ## Initialize a git repository (Make sure you are in your Hugo website directory)
     git init
@@ -66,7 +68,7 @@ You can get the theme of your choice from [Hugo Themes](https://themes.gohugo.io
     ## Install a theme (we are installing the Terminal theme here). Once downloaded it should be in your Hugo themes folder
     git submodule add -f https://github.com/panr/hugo-theme-terminal.git themes/terminal
     ```
-6. **Configure `hugo.toml`**:
+4. **Configure `hugo.toml`**:
     Edit your `hugo.toml` file (using `nano hugo.toml`, `notepad hugo.toml`, or `code hugo.toml`) and add or update the configuration:
     ```toml
     baseurl = "/"
@@ -188,20 +190,20 @@ print("Markdown files processed and images copied successfully.")
 ---
 ## Step 5: Deploy to Vercel
 
-7. **Prepare Your Repository** (if not done earlier):
+1. **Prepare Your Repository** (if not done earlier):
     Initialize Git in your Hugo site directory:
     ```bash
     git init
     git add .
     git commit -m "Initial commit"
     ```
-8. **Push Your Repository to GitHub (Optional)**:
+2. **Push Your Repository to GitHub (Optional)**:
     If you prefer integrating Vercel with GitHub for automatic deployments:
     ```bash
     git remote add origin https://github.com/yourusername/your-repo.git
     git push -u origin main
     ```
-9. **Deploy Using Vercel**
+3. **Deploy Using Vercel**
     You have two options to deploy your Hugo site with Vercel:
     ### Option A: Deploy via the Vercel Dashboard
     - **Sign Up / Log In**: Go to [vercel.com](https://vercel.com) and sign in with your GitHub.
