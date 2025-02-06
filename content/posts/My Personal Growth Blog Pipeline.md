@@ -21,7 +21,7 @@ tags:
 1. **Create a `posts` folder**:
     This will store all your blog drafts in Obsidian.
 	Also note where all your Obsidian directories are using the following steps:
-	 ![[WhatsApp Image 2025-02-06 at 15.53.50_5254f6f6.jpg]]
+	 ![Image description](/images/WhatsApp%20Image%202025-02-06%20at%2015.53.50%205254f6f6.jpg)
 2. **Note structure**:
     Write posts in Markdown with Hugo-compatible frontmatter:
     ```markdown
@@ -205,13 +205,13 @@ print("Markdown files processed and images copied successfully.")
     - **Sign Up / Log In**: Go to [vercel.com](https://vercel.com) and sign in with your GitHub.
       
     - **Import Your Project**: Click on **"New Project"** and import your GitHub repository.
-      ![[WhatsApp Image 2025-02-06 at 15.53.50_de99f2dc.jpg]]
+     ![Image description](/images/WhatsApp%20Image%202025-02-06%20at%2015.53.50_ca57f782.jpg)
     - **Configure Build Settings**:
         - **Framework Preset**: Select **"Hugo"**.
-          ![[WhatsApp Image 2025-02-06 at 15.53.50_ca57f782.jpg]]
+        ![Image description](/images/WhatsApp%20Image%202025-02-06%20at%2015.53.50_ca57f782.jpg)
         - **Output Directory**: Set to `public`.
     - **Deploy**: Click **"Deploy"**. Vercel will build your Hugo site and provide you with a live URL.
-      
+     ![Image description](/images/WhatsApp%20Image%202025-02-06%20at%2015.53.50_ca57f782.jpg)
     
     ### Option B: Deploy via the Vercel CLI
     1. **Install Vercel CLI** (if not already installed):
