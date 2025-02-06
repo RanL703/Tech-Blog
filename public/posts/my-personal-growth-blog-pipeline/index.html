@@ -6,9 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=" Tools You’ll Need Obsidian: My go-to note-taking app for drafting blog posts (Obsidian.md)]. Hugo: A static site generator for turning Markdown into a website (gohugo.io). Git/GitHub: For version control and free hosting via GitHub Pages. Step 1: Organize Your Obsidian Vault Create a posts folder:
-This will store all your blog drafts in Obsidian. mkdir ~/obsidian-vault/posts Note structure:
-Write posts in Markdown with Hugo-compatible frontmatter: --- title: &#34;My First Blog Post&#34; date: 2025-02-06 draft: false tags: - blogging - tech --- Step 2: Set Up Hugo Install Hugo Prerequisites:
+<meta name="description" content=" Tools You’ll Need Obsidian: My go-to note-taking app for drafting blog posts (Obsidian.md). Hugo: A static site generator for turning Markdown into a website (gohugo.io). Git/GitHub: For version control (optional, but useful for Vercel integration). Vercel: For hosting your Hugo site (vercel.com). Step 1: Organize Your Obsidian Vault Create a posts folder: This will store all your blog drafts in Obsidian. Also note where all your Obsidian directories are using the following steps: ![[Pasted image 20250206151620.png]] Note structure: Write posts in Markdown with Hugo-compatible frontmatter: --- title: &#34;My First Blog Post&#34; date: 2025-02-06 draft: false tags: - blogging - tech --- Step 2: Set Up Hugo Install Hugo Prerequisites: Install Git and Go. Install Hugo globally: brew install hugo # Mac choco install hugo # Windows Create a new site: hugo new site my-blog &amp;&amp; cd my-blog git init Add a Theme (Terminal Theme Example) You can get the theme of your choice from Hugo Themes. 5. Install as a submodule: ```bash ## Initialize a git repository (Make sure you are in your Hugo website directory) git init
 " />
 <meta name="keywords" content="" />
 
@@ -84,9 +82,7 @@ Write posts in Markdown with Hugo-compatible frontmatter: --- title: &#34;My Fir
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="My Personal Growth Blog Pipeline">
-<meta property="og:description" content=" Tools You’ll Need Obsidian: My go-to note-taking app for drafting blog posts (Obsidian.md)]. Hugo: A static site generator for turning Markdown into a website (gohugo.io). Git/GitHub: For version control and free hosting via GitHub Pages. Step 1: Organize Your Obsidian Vault Create a posts folder:
-This will store all your blog drafts in Obsidian. mkdir ~/obsidian-vault/posts Note structure:
-Write posts in Markdown with Hugo-compatible frontmatter: --- title: &#34;My First Blog Post&#34; date: 2025-02-06 draft: false tags: - blogging - tech --- Step 2: Set Up Hugo Install Hugo Prerequisites:
+<meta property="og:description" content=" Tools You’ll Need Obsidian: My go-to note-taking app for drafting blog posts (Obsidian.md). Hugo: A static site generator for turning Markdown into a website (gohugo.io). Git/GitHub: For version control (optional, but useful for Vercel integration). Vercel: For hosting your Hugo site (vercel.com). Step 1: Organize Your Obsidian Vault Create a posts folder: This will store all your blog drafts in Obsidian. Also note where all your Obsidian directories are using the following steps: ![[Pasted image 20250206151620.png]] Note structure: Write posts in Markdown with Hugo-compatible frontmatter: --- title: &#34;My First Blog Post&#34; date: 2025-02-06 draft: false tags: - blogging - tech --- Step 2: Set Up Hugo Install Hugo Prerequisites: Install Git and Go. Install Hugo globally: brew install hugo # Mac choco install hugo # Windows Create a new site: hugo new site my-blog &amp;&amp; cd my-blog git init Add a Theme (Terminal Theme Example) You can get the theme of your choice from Hugo Themes. 5. Install as a submodule: ```bash ## Initialize a git repository (Make sure you are in your Hugo website directory) git init
 " />
 <meta property="og:url" content="/posts/my-personal-growth-blog-pipeline/" />
 <meta property="og:site_name" content="Terminal" />
@@ -196,168 +192,129 @@ Write posts in Markdown with Hugo-compatible frontmatter: --- title: &#34;My Fir
         <hr>
 <h2 id="tools-youll-need">Tools You’ll Need<a href="#tools-youll-need" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
-<li><strong>Obsidian</strong>: My go-to note-taking app for drafting blog posts (<a href="https://obsidian.md">Obsidian.md</a>)].</li>
+<li><strong>Obsidian</strong>: My go-to note-taking app for drafting blog posts (<a href="https://obsidian.md">Obsidian.md</a>).</li>
 <li><strong>Hugo</strong>: A static site generator for turning Markdown into a website (<a href="https://gohugo.io">gohugo.io</a>).</li>
-<li><strong>Git/GitHub</strong>: For version control and free hosting via GitHub Pages.</li>
+<li><strong>Git/GitHub</strong>: For version control (optional, but useful for Vercel integration).</li>
+<li><strong>Vercel</strong>: For hosting your Hugo site (<a href="https://vercel.com">vercel.com</a>).</li>
 </ul>
 <hr>
 <h2 id="step-1-organize-your-obsidian-vault">Step 1: Organize Your Obsidian Vault<a href="#step-1-organize-your-obsidian-vault" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ol>
-<li><strong>Create a <code>posts</code> folder</strong>:<br>
+<li><strong>Create a <code>posts</code> folder</strong>:
 This will store all your blog drafts in Obsidian.
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir ~/obsidian-vault/posts
-</span></span></code></pre></div></li>
-<li><strong>Note structure</strong>:<br>
+Also note where all your Obsidian directories are using the following steps:
+![[Pasted image 20250206151620.png]]</li>
+<li><strong>Note structure</strong>:
 Write posts in Markdown with Hugo-compatible frontmatter:
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span> 	---
-</span></span><span style="display:flex;"><span> 	title: &#34;My First Blog Post&#34;
-</span></span><span style="display:flex;"><span> 	date: 2025-02-06
-</span></span><span style="display:flex;"><span> 	draft: false
-</span></span><span style="display:flex;"><span> 	tags:
-</span></span><span style="display:flex;"><span> 	  <span style="color:#66d9ef">-</span> blogging
-</span></span><span style="display:flex;"><span> 	  <span style="color:#66d9ef">-</span> tech
-</span></span><span style="display:flex;"><span> 	---
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;My First Blog Post&#34;
+</span></span><span style="display:flex;"><span>date: 2025-02-06
+</span></span><span style="display:flex;"><span>draft: false
+</span></span><span style="display:flex;"><span>tags:
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> blogging
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">-</span> tech
+</span></span><span style="display:flex;"><span>---
 </span></span></code></pre></div></li>
 </ol>
 <hr>
 <h2 id="step-2-set-up-hugo">Step 2: Set Up Hugo<a href="#step-2-set-up-hugo" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <h3 id="install-hugo">Install Hugo<a href="#install-hugo" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<ol>
-<li>
-<p><strong>Prerequisites</strong>:</p>
+<ol start="3">
+<li><strong>Prerequisites</strong>:
 <ul>
 <li>Install <a href="https://git-scm.com">Git</a> and <a href="https://go.dev/dl">Go</a>.</li>
-<li>Install Hugo globally :</li>
-</ul>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>	brew install hugo  <span style="color:#75715e"># Mac</span>
-</span></span><span style="display:flex;"><span>	choco install hugo <span style="color:#75715e"># Windows</span>
+<li>Install Hugo globally:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo <span style="color:#75715e"># Mac</span>
+</span></span><span style="display:flex;"><span>choco install hugo <span style="color:#75715e"># Windows</span>
 </span></span></code></pre></div></li>
-<li>
-<p><strong>Create a new site</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    hugo new site my-blog <span style="color:#f92672">&amp;&amp;</span> cd my-blog
-</span></span><span style="display:flex;"><span>    git init
+</ul>
+</li>
+<li><strong>Create a new site</strong>:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site my-blog <span style="color:#f92672">&amp;&amp;</span> cd my-blog
+</span></span><span style="display:flex;"><span>git init
 </span></span></code></pre></div></li>
 </ol>
 <h3 id="add-a-theme-terminal-theme-example">Add a Theme (Terminal Theme Example)<a href="#add-a-theme-terminal-theme-example" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<p>You can get the theme of your choice from <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>!
-3. <strong>Install as a submodule</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>    <span style="color:#75715e">## Initialize a git repository (Make sure you are in your Hugo website directory)</span>
-</span></span><span style="display:flex;"><span> 
-</span></span><span style="display:flex;"><span> git init
-</span></span><span style="display:flex;"><span> 
-</span></span><span style="display:flex;"><span> <span style="color:#75715e">## Set global username and email parameters for git</span>
-</span></span><span style="display:flex;"><span> 
-</span></span><span style="display:flex;"><span> git config --global user.name <span style="color:#e6db74">&#34;Your Name&#34;</span>
-</span></span><span style="display:flex;"><span> git config --global user.email <span style="color:#e6db74">&#34;your.email@example.com&#34;</span>
-</span></span><span style="display:flex;"><span> 
-</span></span><span style="display:flex;"><span> 
-</span></span><span style="display:flex;"><span> <span style="color:#75715e">## Install a theme (we are installing the Terminal theme here). Once downloaded it should be in your Hugo themes folder</span>
-</span></span><span style="display:flex;"><span> <span style="color:#75715e">## Find a theme ---&gt; https://themes.gohugo.io/</span>
-</span></span><span style="display:flex;"><span> 
-</span></span><span style="display:flex;"><span> git submodule add -f https://github.com/panr/hugo-theme-terminal.git themes/terminal
-</span></span></code></pre></div><ol start="4">
-<li><strong>Configure <code>hugo.toml</code></strong>:<br>
-We will edit the <em>hugo.toml</em> file to make these changes. In the command line, type
-<code>nano hugo.toml</code> (Linux/Mac) or <code>notepad hugo.toml</code> (Windows) or <code>code hugo.toml</code> (All platforms)
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span> <span style="color:#a6e22e">baseurl</span> = <span style="color:#e6db74">&#34;/&#34;</span>
-</span></span><span style="display:flex;"><span> <span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#34;en-us&#34;</span>
-</span></span><span style="display:flex;"><span> <span style="color:#75715e"># Add it only if you keep the theme in the `themes` directory.</span>
-</span></span><span style="display:flex;"><span> <span style="color:#75715e"># Remove it if you use the theme as a remote Hugo Module.</span>
-</span></span><span style="display:flex;"><span> <span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;terminal&#34;</span>
-</span></span><span style="display:flex;"><span> <span style="color:#a6e22e">paginate</span> = <span style="color:#ae81ff">5</span>
+<p>You can get the theme of your choice from <a href="https://themes.gohugo.io/">Hugo Themes</a>.
+5. <strong>Install as a submodule</strong>:
+```bash
+## Initialize a git repository (Make sure you are in your Hugo website directory)
+git init</p>
+<pre><code>## Set global username and email parameters for git
+git config --global user.name &quot;Your Name&quot;
+git config --global user.email &quot;your.email@example.com&quot;
+
+## Install a theme (we are installing the Terminal theme here). Once downloaded it should be in your Hugo themes folder
+git submodule add -f https://github.com/panr/hugo-theme-terminal.git themes/terminal
+```
+</code></pre>
+<ol start="6">
+<li><strong>Configure <code>hugo.toml</code></strong>:
+Edit your <code>hugo.toml</code> file (using <code>nano hugo.toml</code>, <code>notepad hugo.toml</code>, or <code>code hugo.toml</code>) and add or update the configuration:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseurl</span> = <span style="color:#e6db74">&#34;/&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#34;en-us&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#34;terminal&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">paginate</span> = <span style="color:#ae81ff">5</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span> [<span style="color:#a6e22e">params</span>]
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># dir name of your main content (default is `content/posts`).</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># the list of set content will show up on your index page (baseurl).</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">contentTypeName</span> = <span style="color:#e6db74">&#34;posts&#34;</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">contentTypeName</span> = <span style="color:#e6db74">&#34;posts&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">showMenuItems</span> = <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">showLanguageSelector</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">fullWidthTheme</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">centerTheme</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">autoCover</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">showLastUpdated</span> = <span style="color:#66d9ef">false</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># if you set this to 0, only submenu trigger will be visible</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">showMenuItems</span> = <span style="color:#ae81ff">2</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">twitter</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">creator</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">site</span> = <span style="color:#e6db74">&#34;&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># show selector to switch language</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">showLanguageSelector</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>]
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># set theme to full screen width</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">fullWidthTheme</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageName</span> = <span style="color:#e6db74">&#34;English&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;Terminal&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># center theme with default width</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">centerTheme</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">subtitle</span> = <span style="color:#e6db74">&#34;A simple, retro theme for Hugo&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">owner</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">keywords</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">copyright</span> = <span style="color:#e6db74">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">menuMore</span> = <span style="color:#e6db74">&#34;Show more&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">readMore</span> = <span style="color:#e6db74">&#34;Read more&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">readOtherPosts</span> = <span style="color:#e6db74">&#34;Read other posts&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">newerPosts</span> = <span style="color:#e6db74">&#34;Newer posts&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">olderPosts</span> = <span style="color:#e6db74">&#34;Older posts&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">missingContentMessage</span> = <span style="color:#e6db74">&#34;Page not found...&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">missingBackButtonLabel</span> = <span style="color:#e6db74">&#34;Back to home page&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">minuteReadingTime</span> = <span style="color:#e6db74">&#34;min read&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">words</span> = <span style="color:#e6db74">&#34;words&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># if your resource directory contains an image called `cover.(jpg|png|webp)`,</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># then the file will be used as a cover automatically.</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># With this option you don&#39;t have to put the `cover` param in a front-matter.</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">autoCover</span> = <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">logo</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">logoText</span> = <span style="color:#e6db74">&#34;Terminal&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">logoHomeLink</span> = <span style="color:#e6db74">&#34;/&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># set post to show the last updated</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">showLastUpdated</span> = <span style="color:#66d9ef">false</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">menu</span>]
+</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">identifier</span> = <span style="color:#e6db74">&#34;about&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;About&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/about&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># updatedDatePrefix = &#34;Updated&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># whether to show a page&#39;s estimated reading time</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># readingTime = false # default</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># whether to show a table of contents</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># can be overridden in a page&#39;s front-matter</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># Toc = false # default</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># set title for the table of contents</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># can be overridden in a page&#39;s front-matter</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># TocTitle = &#34;Table of Contents&#34; # default</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span> [<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">twitter</span>]
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># set Twitter handles for Twitter cards</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># see https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started#card-and-content-attribution</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#75715e"># do not include @</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">creator</span> = <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>   <span style="color:#a6e22e">site</span> = <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span> [<span style="color:#a6e22e">languages</span>]
-</span></span><span style="display:flex;"><span>   [<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>]
-</span></span><span style="display:flex;"><span>     <span style="color:#a6e22e">languageName</span> = <span style="color:#e6db74">&#34;English&#34;</span>
-</span></span><span style="display:flex;"><span>     <span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;Terminal&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>     [<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">params</span>]
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">subtitle</span> = <span style="color:#e6db74">&#34;A simple, retro theme for Hugo&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">owner</span> = <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">keywords</span> = <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">copyright</span> = <span style="color:#e6db74">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">menuMore</span> = <span style="color:#e6db74">&#34;Show more&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">readMore</span> = <span style="color:#e6db74">&#34;Read more&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">readOtherPosts</span> = <span style="color:#e6db74">&#34;Read other posts&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">newerPosts</span> = <span style="color:#e6db74">&#34;Newer posts&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">olderPosts</span> = <span style="color:#e6db74">&#34;Older posts&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">missingContentMessage</span> = <span style="color:#e6db74">&#34;Page not found...&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">missingBackButtonLabel</span> = <span style="color:#e6db74">&#34;Back to home page&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">minuteReadingTime</span> = <span style="color:#e6db74">&#34;min read&#34;</span>
-</span></span><span style="display:flex;"><span>       <span style="color:#a6e22e">words</span> = <span style="color:#e6db74">&#34;words&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>       [<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">logo</span>]
-</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">logoText</span> = <span style="color:#e6db74">&#34;Terminal&#34;</span>
-</span></span><span style="display:flex;"><span>         <span style="color:#a6e22e">logoHomeLink</span> = <span style="color:#e6db74">&#34;/&#34;</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>       [<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">menu</span>]
-</span></span><span style="display:flex;"><span>         [[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
-</span></span><span style="display:flex;"><span>           <span style="color:#a6e22e">identifier</span> = <span style="color:#e6db74">&#34;about&#34;</span>
-</span></span><span style="display:flex;"><span>           <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;About&#34;</span>
-</span></span><span style="display:flex;"><span>           <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/about&#34;</span>
-</span></span><span style="display:flex;"><span>         [[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
-</span></span><span style="display:flex;"><span>           <span style="color:#a6e22e">identifier</span> = <span style="color:#e6db74">&#34;showcase&#34;</span>
-</span></span><span style="display:flex;"><span>           <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Showcase&#34;</span>
-</span></span><span style="display:flex;"><span>           <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/showcase&#34;</span>
+</span></span><span style="display:flex;"><span>[[<span style="color:#a6e22e">languages</span>.<span style="color:#a6e22e">en</span>.<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">identifier</span> = <span style="color:#e6db74">&#34;showcase&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Showcase&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/showcase&#34;</span>
 </span></span></code></pre></div></li>
 </ol>
 <hr>
 <h2 id="step-3-sync-obsidian-to-hugo">Step 3: Sync Obsidian to Hugo<a href="#step-3-sync-obsidian-to-hugo" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <h3 id="automate-content-transfer">Automate Content Transfer<a href="#automate-content-transfer" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <ul>
-<li><strong>Windows</strong>:<br>
+<li><strong>Windows</strong>:
 Use <code>robocopy</code> to mirror your Obsidian <code>posts</code> folder to Hugo’s <code>content/posts</code>:
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>robocopy <span style="color:#e6db74">&#34;C:\obsidian-vault\posts&#34;</span> <span style="color:#e6db74">&#34;C:\hugo-blog\content\posts&#34;</span> /mir
 </span></span></code></pre></div></li>
-<li><strong>Mac/Linux</strong>:<br>
+<li><strong>Mac/Linux</strong>:
 Use <code>rsync</code> for the same effect:
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rsync -av --delete ~/obsidian-vault/posts/ ~/hugo-blog/content/posts/
 </span></span></code></pre></div></li>
@@ -365,7 +322,7 @@ Use <code>rsync</code> for the same effect:
 <hr>
 <h2 id="step-4-handle-images">Step 4: Handle Images<a href="#step-4-handle-images" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <h3 id="python-script-for-image-relinking">Python Script for Image Relinking<a href="#python-script-for-image-relinking" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<p>Run this script to copy images from Obsidian’s attachment folder to Hugo’s <code>static/images</code> and fix Markdown links :</p>
+<p>Run this script to copy images from Obsidian’s attachment folder to Hugo’s <code>static/images</code> and fix Markdown links:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> os
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> re
 </span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> shutil
@@ -375,72 +332,99 @@ Use <code>rsync</code> for the same effect:
 </span></span><span style="display:flex;"><span>attachments_dir <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;C:\Users\RANADEEP LASKAR\Documents\Attachments&#34;</span>
 </span></span><span style="display:flex;"><span>static_images_dir <span style="color:#f92672">=</span> <span style="color:#e6db74">r</span><span style="color:#e6db74">&#34;C:\Users\RANADEEP LASKAR\Documents\RanaBlog\static\images&#34;</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Step 1: Process each markdown file in the posts directory</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Process each markdown file in the posts directory</span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> filename <span style="color:#f92672">in</span> os<span style="color:#f92672">.</span>listdir(posts_dir):
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> filename<span style="color:#f92672">.</span>endswith(<span style="color:#e6db74">&#34;.md&#34;</span>):
 </span></span><span style="display:flex;"><span>        filepath <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(posts_dir, filename)
-</span></span><span style="display:flex;"><span>        
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> open(filepath, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> file:
 </span></span><span style="display:flex;"><span>            content <span style="color:#f92672">=</span> file<span style="color:#f92672">.</span>read()
-</span></span><span style="display:flex;"><span>        
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Step 2: Find all image links in the format ![Image Description](/images/Pasted%20image%20...%20.png)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Find all image links in the format [[image.png]]</span>
 </span></span><span style="display:flex;"><span>        images <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;\[\[([^]]*\.png)\]\]&#39;</span>, content)
-</span></span><span style="display:flex;"><span>        
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Step 3: Replace image links and ensure URLs are correctly formatted</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Replace image links and ensure URLs are correctly formatted</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> image <span style="color:#f92672">in</span> images:
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Prepare the Markdown-compatible link with %20 replacing spaces</span>
 </span></span><span style="display:flex;"><span>            markdown_image <span style="color:#f92672">=</span> <span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;![Image Description](/images/</span><span style="color:#e6db74">{</span>image<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#39; &#39;</span>, <span style="color:#e6db74">&#39;%20&#39;</span>)<span style="color:#e6db74">}</span><span style="color:#e6db74">)&#34;</span>
 </span></span><span style="display:flex;"><span>            content <span style="color:#f92672">=</span> content<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;[[</span><span style="color:#e6db74">{</span>image<span style="color:#e6db74">}</span><span style="color:#e6db74">]]&#34;</span>, markdown_image)
-</span></span><span style="display:flex;"><span>            
-</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Step 4: Copy the image to the Hugo static/images directory if it exists</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>            <span style="color:#75715e"># Copy the image to the Hugo static/images directory if it exists</span>
 </span></span><span style="display:flex;"><span>            image_source <span style="color:#f92672">=</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>join(attachments_dir, image)
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> os<span style="color:#f92672">.</span>path<span style="color:#f92672">.</span>exists(image_source):
 </span></span><span style="display:flex;"><span>                shutil<span style="color:#f92672">.</span>copy(image_source, static_images_dir)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Step 5: Write the updated content back to the markdown file</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Write the updated content back to the markdown file</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> open(filepath, <span style="color:#e6db74">&#34;w&#34;</span>) <span style="color:#66d9ef">as</span> file:
 </span></span><span style="display:flex;"><span>            file<span style="color:#f92672">.</span>write(content)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">&#34;Markdown files processed and images copied successfully.&#34;</span>)
 </span></span></code></pre></div><hr>
-<h2 id="step-5-deploy-to-github-pages">Step 5: Deploy to GitHub Pages<a href="#step-5-deploy-to-github-pages" class="hanchor" ariaLabel="Anchor">#</a> </h2>
-<ol start="5">
+<h2 id="step-5-deploy-to-vercel">Step 5: Deploy to Vercel<a href="#step-5-deploy-to-vercel" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ol start="7">
 <li>
-<p><strong>Initialize Git</strong> (if not done earlier):</p>
+<p><strong>Prepare Your Repository</strong> (if not done earlier):
+Initialize Git in your Hugo site directory:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git init
-</span></span><span style="display:flex;"><span>git remote add origin https://github.com/yourusername/your-repo.git
-</span></span></code></pre></div></li>
-<li>
-<p><strong>Build and Push</strong>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo -D  <span style="color:#75715e"># Builds site to /public</span>
-</span></span><span style="display:flex;"><span>cd public
 </span></span><span style="display:flex;"><span>git add .
-</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Deploy blog&#34;</span>
-</span></span><span style="display:flex;"><span>git push origin main
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
 </span></span></code></pre></div></li>
 <li>
-<p><strong>Enable GitHub Pages</strong>:</p>
+<p><strong>Push Your Repository to GitHub (Optional)</strong>:
+If you prefer integrating Vercel with GitHub for automatic deployments:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin https://github.com/yourusername/your-repo.git
+</span></span><span style="display:flex;"><span>git push -u origin main
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Deploy Using Vercel</strong>
+You have two options to deploy your Hugo site with Vercel:</p>
+<h3 id="option-a-deploy-via-the-vercel-dashboard">Option A: Deploy via the Vercel Dashboard<a href="#option-a-deploy-via-the-vercel-dashboard" class="hanchor" ariaLabel="Anchor">#</a> </h3>
 <ul>
-<li>Go to your repo’s <strong>Settings &gt; Pages</strong>.</li>
-<li>Set the branch to <code>main</code> and folder to <code>/public</code>.</li>
+<li>
+<p><strong>Sign Up / Log In</strong>: Go to <a href="https://vercel.com">vercel.com</a> and sign in with your GitHub.</p>
+</li>
+<li>
+<p><strong>Import Your Project</strong>: Click on <strong>&ldquo;New Project&rdquo;</strong> and import your GitHub repository.
+![[Pasted image 20250206150958.png]]</p>
+</li>
+<li>
+<p><strong>Configure Build Settings</strong>:</p>
+<ul>
+<li><strong>Framework Preset</strong>: Select <strong>&ldquo;Hugo&rdquo;</strong>.
+![[Pasted image 20250206151126.png]]</li>
+<li><strong>Output Directory</strong>: Set to <code>public</code>.</li>
 </ul>
+</li>
+<li>
+<p><strong>Deploy</strong>: Click <strong>&ldquo;Deploy&rdquo;</strong>. Vercel will build your Hugo site and provide you with a live URL.
+![[Pasted image 20250206151242.png]]</p>
+</li>
+</ul>
+<h3 id="option-b-deploy-via-the-vercel-cli">Option B: Deploy via the Vercel CLI<a href="#option-b-deploy-via-the-vercel-cli" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ol>
+<li>
+<p><strong>Install Vercel CLI</strong> (if not already installed):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>npm install -g vercel
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Run Vercel in Your Project Directory</strong>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vercel
+</span></span></code></pre></div><p>Follow the interactive prompts to link or create a new Vercel project. Vercel will detect your Hugo site and build it accordingly.</p>
+</li>
+<li>
+<p><strong>For Production Deployments</strong>, run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>vercel --prod
+</span></span></code></pre></div><p>This command will deploy your site to production and return the live URL.</p>
+</li>
+</ol>
 </li>
 </ol>
 <hr>
 <h2 id="final-notes">Final Notes<a href="#final-notes" class="hanchor" ariaLabel="Anchor">#</a> </h2>
 <ul>
-<li><strong>Preview locally</strong>: Run <code>hugo server -D</code> to test your site.</li>
-<li><strong>GitHub Actions (Optional)</strong>: Automate builds using <a href="https://gist.github.com/abstractalgo/7d02299bcf9d3a1b1c94f08860d1dd75">this workflow example</a> .</li>
+<li><strong>Preview locally</strong>: Run <code>hugo server -D</code> to test your site locally.</li>
+<li><strong>Automate Deployments</strong>: If you push your repository to GitHub and link it with Vercel, every push to your main branch will trigger a new deployment.</li>
+<li><strong>Environment Variables &amp; Custom Configs</strong>: You can further customize your deployment via the Vercel dashboard or by adding a <code>vercel.json</code> configuration file.</li>
 </ul>
-<hr>
-<p><em>Inspired by <a href="https://blog.networkchuck.com/posts/my-insane-blog-pipeline/">NetworkChuck’s blog pipeline</a>. Simplified for GitHub hosting.</em> 🎉</p>
-<h3 id="key-adjustments-made">Key Adjustments Made:<a href="#key-adjustments-made" class="hanchor" ariaLabel="Anchor">#</a> </h3>
-<ol start="8">
-<li><strong>Removed Hostinger-specific steps</strong> (e.g., <code>git subtree split</code> for Hostinger branch).</li>
-<li><strong>Simplified deployment</strong> to use GitHub Pages instead of third-party hosting.</li>
-<li><strong>Rephrased technical jargon</strong> for readability (e.g., &ldquo;MEGA SCRIPT&rdquo; → &ldquo;Python Script&rdquo;).</li>
-<li><strong>Added direct GitHub Pages instructions</strong> for clarity.</li>
-</ol>
+<p><em>Inspired by <a href="https://blog.networkchuck.com/posts/my-insane-blog-pipeline/">NetworkChuck’s blog pipeline</a>. Simplified for Vercel hosting.</em></p>
 
       </div></div>
 
