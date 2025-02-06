@@ -89,7 +89,7 @@ theme = "terminal"
       words = "words"
 
       [languages.en.params.logo]
-        logoText = "Terminal"
+        logoText = "The RanL Blog!"
         logoHomeLink = "/"
 
       [languages.en.menu]
