@@ -27,7 +27,7 @@
 &lt;li&gt;&lt;strong&gt;Create a &lt;code&gt;posts&lt;/code&gt; folder&lt;/strong&gt;:
 This will store all your blog drafts in Obsidian.
 Also note where all your Obsidian directories are using the following steps:
-&lt;img src=&#34;/images/WhatsApp%20Image%202025-02-06%20at%2015.53.50%205254f6f6.jpg&#34; alt=&#34;Image description&#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;/images/WhatsApp%20Image%202025-02-06%20at%2015.53.50_5254f6f6.jpg&#34; alt=&#34;Image description&#34;&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Note structure&lt;/strong&gt;:
 Write posts in Markdown with Hugo-compatible frontmatter:
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
@@ -78,7 +78,7 @@ git init&lt;/p&gt;</description>
 &lt;li&gt;&lt;strong&gt;Create a &lt;code&gt;posts&lt;/code&gt; folder&lt;/strong&gt;:
 This will store all your blog drafts in Obsidian.
 Also note where all your Obsidian directories are using the following steps:
-&lt;img src=&#34;/images/WhatsApp%20Image%202025-02-06%20at%2015.53.50%205254f6f6.jpg&#34; alt=&#34;Image description&#34;&gt;&lt;/li&gt;
+&lt;img src=&#34;/images/WhatsApp%20Image%202025-02-06%20at%2015.53.50_5254f6f6.jpg&#34; alt=&#34;Image description&#34;&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Note structure&lt;/strong&gt;:
 Write posts in Markdown with Hugo-compatible frontmatter:
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---

@@ -21,7 +21,7 @@ tags:
 1. **Create a `posts` folder**:
     This will store all your blog drafts in Obsidian.
 	Also note where all your Obsidian directories are using the following steps:
-	 ![Image description](/images/WhatsApp%20Image%202025-02-06%20at%2015.53.50%205254f6f6.jpg)
+	![Image description](/images/WhatsApp%20Image%202025-02-06%20at%2015.53.50_5254f6f6.jpg)
 2. **Note structure**:
     Write posts in Markdown with Hugo-compatible frontmatter:
     ```markdown
