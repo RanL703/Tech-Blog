@@ -72,7 +72,8 @@ You can get the theme of your choice from [Hugo Themes](https://themes.gohugo.io
     baseurl = "/"
     languageCode = "en-us"
     theme = "terminal"
-    paginate = 5
+    [pagination]
+	    pagerSize = 5
     
     [params]
     contentTypeName = "posts"
