@@ -27,7 +27,7 @@
 &lt;li&gt;&lt;strong&gt;Create a &lt;code&gt;posts&lt;/code&gt; folder&lt;/strong&gt;:
 This will store all your blog drafts in Obsidian.
 Also note where all your Obsidian directories are using the following steps:
-!&lt;img src=&#34;/images/Pasted%20image%2020250206151620.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;
+![[WhatsApp Image 2025-02-06 at 15.53.50_5254f6f6.jpg]]&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Note structure&lt;/strong&gt;:
 Write posts in Markdown with Hugo-compatible frontmatter:
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
@@ -78,7 +78,7 @@ git init&lt;/p&gt;</description>
 &lt;li&gt;&lt;strong&gt;Create a &lt;code&gt;posts&lt;/code&gt; folder&lt;/strong&gt;:
 This will store all your blog drafts in Obsidian.
 Also note where all your Obsidian directories are using the following steps:
-!&lt;img src=&#34;/images/Pasted%20image%2020250206151620.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;
+![[WhatsApp Image 2025-02-06 at 15.53.50_5254f6f6.jpg]]&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Note structure&lt;/strong&gt;:
 Write posts in Markdown with Hugo-compatible frontmatter:
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;---
@@ -214,7 +214,7 @@ Use &lt;code&gt;rsync&lt;/code&gt; for the same effect:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;with&lt;/span&gt; open(filepath, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;r&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;as&lt;/span&gt; file:
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            content &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; file&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Find all image links in the format ![Image Description](/images/image.png)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Find all image links in the format [[image.png]]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        images &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; re&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;findall(&lt;span style=&#34;color:#e6db74&#34;&gt;r&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;\[\[([^]]*\.png)\]\]&amp;#39;&lt;/span&gt;, content)
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Replace image links and ensure URLs are correctly formatted&lt;/span&gt;
@@ -258,19 +258,18 @@ You have two options to deploy your Hugo site with Vercel:&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Import Your Project&lt;/strong&gt;: Click on &lt;strong&gt;&amp;ldquo;New Project&amp;rdquo;&lt;/strong&gt; and import your GitHub repository.
-!&lt;img src=&#34;/images/Pasted%20image%2020250206150958.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+![[WhatsApp Image 2025-02-06 at 15.53.50_de99f2dc.jpg]]&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Configure Build Settings&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Framework Preset&lt;/strong&gt;: Select &lt;strong&gt;&amp;ldquo;Hugo&amp;rdquo;&lt;/strong&gt;.
-!&lt;img src=&#34;/images/Pasted%20image%2020250206151126.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/li&gt;
+![[WhatsApp Image 2025-02-06 at 15.53.50_ca57f782.jpg]]&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Output Directory&lt;/strong&gt;: Set to &lt;code&gt;public&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Deploy&lt;/strong&gt;: Click &lt;strong&gt;&amp;ldquo;Deploy&amp;rdquo;&lt;/strong&gt;. Vercel will build your Hugo site and provide you with a live URL.
-!&lt;img src=&#34;/images/Pasted%20image%2020250206151242.png&#34; alt=&#34;Image Description&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deploy&lt;/strong&gt;: Click &lt;strong&gt;&amp;ldquo;Deploy&amp;rdquo;&lt;/strong&gt;. Vercel will build your Hugo site and provide you with a live URL.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;option-b-deploy-via-the-vercel-cli&#34;&gt;Option B: Deploy via the Vercel CLI&lt;/h3&gt;

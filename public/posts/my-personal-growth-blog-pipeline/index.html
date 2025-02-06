@@ -6,7 +6,7 @@
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content=" Tools You’ll Need Obsidian: My go-to note-taking app for drafting blog posts (Obsidian.md). Hugo: A static site generator for turning Markdown into a website (gohugo.io). Git/GitHub: For version control (optional, but useful for Vercel integration). Vercel: For hosting your Hugo site (vercel.com). Step 1: Organize Your Obsidian Vault Create a posts folder: This will store all your blog drafts in Obsidian. Also note where all your Obsidian directories are using the following steps: ! Note structure: Write posts in Markdown with Hugo-compatible frontmatter: --- title: &#34;My First Blog Post&#34; date: 2025-02-06 draft: false tags: - blogging - tech --- Step 2: Set Up Hugo Install Hugo Prerequisites: Install Git and Go. Install Hugo globally: brew install hugo # Mac choco install hugo # Windows Create a new site: hugo new site my-blog &amp;&amp; cd my-blog git init Add a Theme (Terminal Theme Example) You can get the theme of your choice from Hugo Themes. 5. Install as a submodule: ```bash ## Initialize a git repository (Make sure you are in your Hugo website directory) git init
+<meta name="description" content=" Tools You’ll Need Obsidian: My go-to note-taking app for drafting blog posts (Obsidian.md). Hugo: A static site generator for turning Markdown into a website (gohugo.io). Git/GitHub: For version control (optional, but useful for Vercel integration). Vercel: For hosting your Hugo site (vercel.com). Step 1: Organize Your Obsidian Vault Create a posts folder: This will store all your blog drafts in Obsidian. Also note where all your Obsidian directories are using the following steps: ![[WhatsApp Image 2025-02-06 at 15.53.50_5254f6f6.jpg]] Note structure: Write posts in Markdown with Hugo-compatible frontmatter: --- title: &#34;My First Blog Post&#34; date: 2025-02-06 draft: false tags: - blogging - tech --- Step 2: Set Up Hugo Install Hugo Prerequisites: Install Git and Go. Install Hugo globally: brew install hugo # Mac choco install hugo # Windows Create a new site: hugo new site my-blog &amp;&amp; cd my-blog git init Add a Theme (Terminal Theme Example) You can get the theme of your choice from Hugo Themes. 5. Install as a submodule: ```bash ## Initialize a git repository (Make sure you are in your Hugo website directory) git init
 " />
 <meta name="keywords" content="" />
 
@@ -82,7 +82,7 @@
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="My Personal Growth Blog Pipeline">
-<meta property="og:description" content=" Tools You’ll Need Obsidian: My go-to note-taking app for drafting blog posts (Obsidian.md). Hugo: A static site generator for turning Markdown into a website (gohugo.io). Git/GitHub: For version control (optional, but useful for Vercel integration). Vercel: For hosting your Hugo site (vercel.com). Step 1: Organize Your Obsidian Vault Create a posts folder: This will store all your blog drafts in Obsidian. Also note where all your Obsidian directories are using the following steps: ! Note structure: Write posts in Markdown with Hugo-compatible frontmatter: --- title: &#34;My First Blog Post&#34; date: 2025-02-06 draft: false tags: - blogging - tech --- Step 2: Set Up Hugo Install Hugo Prerequisites: Install Git and Go. Install Hugo globally: brew install hugo # Mac choco install hugo # Windows Create a new site: hugo new site my-blog &amp;&amp; cd my-blog git init Add a Theme (Terminal Theme Example) You can get the theme of your choice from Hugo Themes. 5. Install as a submodule: ```bash ## Initialize a git repository (Make sure you are in your Hugo website directory) git init
+<meta property="og:description" content=" Tools You’ll Need Obsidian: My go-to note-taking app for drafting blog posts (Obsidian.md). Hugo: A static site generator for turning Markdown into a website (gohugo.io). Git/GitHub: For version control (optional, but useful for Vercel integration). Vercel: For hosting your Hugo site (vercel.com). Step 1: Organize Your Obsidian Vault Create a posts folder: This will store all your blog drafts in Obsidian. Also note where all your Obsidian directories are using the following steps: ![[WhatsApp Image 2025-02-06 at 15.53.50_5254f6f6.jpg]] Note structure: Write posts in Markdown with Hugo-compatible frontmatter: --- title: &#34;My First Blog Post&#34; date: 2025-02-06 draft: false tags: - blogging - tech --- Step 2: Set Up Hugo Install Hugo Prerequisites: Install Git and Go. Install Hugo globally: brew install hugo # Mac choco install hugo # Windows Create a new site: hugo new site my-blog &amp;&amp; cd my-blog git init Add a Theme (Terminal Theme Example) You can get the theme of your choice from Hugo Themes. 5. Install as a submodule: ```bash ## Initialize a git repository (Make sure you are in your Hugo website directory) git init
 " />
 <meta property="og:url" content="/posts/my-personal-growth-blog-pipeline/" />
 <meta property="og:site_name" content="Terminal" />
@@ -203,7 +203,7 @@
 <li><strong>Create a <code>posts</code> folder</strong>:
 This will store all your blog drafts in Obsidian.
 Also note where all your Obsidian directories are using the following steps:
-!<img src="/images/Pasted%20image%2020250206151620.png" alt="Image Description"></li>
+![[WhatsApp Image 2025-02-06 at 15.53.50_5254f6f6.jpg]]</li>
 <li><strong>Note structure</strong>:
 Write posts in Markdown with Hugo-compatible frontmatter:
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
@@ -339,7 +339,7 @@ Use <code>rsync</code> for the same effect:
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">with</span> open(filepath, <span style="color:#e6db74">&#34;r&#34;</span>) <span style="color:#66d9ef">as</span> file:
 </span></span><span style="display:flex;"><span>            content <span style="color:#f92672">=</span> file<span style="color:#f92672">.</span>read()
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Find all image links in the format ![Image Description](/images/image.png)</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Find all image links in the format [[image.png]]</span>
 </span></span><span style="display:flex;"><span>        images <span style="color:#f92672">=</span> re<span style="color:#f92672">.</span>findall(<span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;\[\[([^]]*\.png)\]\]&#39;</span>, content)
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e"># Replace image links and ensure URLs are correctly formatted</span>
@@ -383,19 +383,18 @@ You have two options to deploy your Hugo site with Vercel:</p>
 </li>
 <li>
 <p><strong>Import Your Project</strong>: Click on <strong>&ldquo;New Project&rdquo;</strong> and import your GitHub repository.
-!<img src="/images/Pasted%20image%2020250206150958.png" alt="Image Description"></p>
+![[WhatsApp Image 2025-02-06 at 15.53.50_de99f2dc.jpg]]</p>
 </li>
 <li>
 <p><strong>Configure Build Settings</strong>:</p>
 <ul>
 <li><strong>Framework Preset</strong>: Select <strong>&ldquo;Hugo&rdquo;</strong>.
-!<img src="/images/Pasted%20image%2020250206151126.png" alt="Image Description"></li>
+![[WhatsApp Image 2025-02-06 at 15.53.50_ca57f782.jpg]]</li>
 <li><strong>Output Directory</strong>: Set to <code>public</code>.</li>
 </ul>
 </li>
 <li>
-<p><strong>Deploy</strong>: Click <strong>&ldquo;Deploy&rdquo;</strong>. Vercel will build your Hugo site and provide you with a live URL.
-!<img src="/images/Pasted%20image%2020250206151242.png" alt="Image Description"></p>
+<p><strong>Deploy</strong>: Click <strong>&ldquo;Deploy&rdquo;</strong>. Vercel will build your Hugo site and provide you with a live URL.</p>
 </li>
 </ul>
 <h3 id="option-b-deploy-via-the-vercel-cli">Option B: Deploy via the Vercel CLI<a href="#option-b-deploy-via-the-vercel-cli" class="hanchor" ariaLabel="Anchor">#</a> </h3>
