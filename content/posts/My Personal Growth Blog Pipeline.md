@@ -6,6 +6,7 @@ tags:
   - blogging
   - tech
 ---
+I decided that I will be starting this blog just so I can post more nerdy stuff than non-premium X.com account can handle. :P
 
 ---
 ## Tools You’ll Need

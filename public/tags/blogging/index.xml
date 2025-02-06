@@ -13,7 +13,8 @@
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       
       <guid>/posts/my-personal-growth-blog-pipeline/</guid>
-      <description>&lt;hr&gt;
+      <description>&lt;p&gt;I decided that I will be starting this blog just so I can post more nerdy stuff than non-premium X.com account can handle. :P&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;tools-youll-need&#34;&gt;Tools You’ll Need&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Obsidian&lt;/strong&gt;: My go-to note-taking app for drafting blog posts (&lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian.md&lt;/a&gt;).&lt;/li&gt;
@@ -64,7 +65,8 @@ Write posts in Markdown with Hugo-compatible frontmatter:
 ```bash
 ## Initialize a git repository (Make sure you are in your Hugo website directory)
 git init&lt;/p&gt;</description>
-      <content>&lt;hr&gt;
+      <content>&lt;p&gt;I decided that I will be starting this blog just so I can post more nerdy stuff than non-premium X.com account can handle. :P&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;tools-youll-need&#34;&gt;Tools You’ll Need&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Obsidian&lt;/strong&gt;: My go-to note-taking app for drafting blog posts (&lt;a href=&#34;https://obsidian.md&#34;&gt;Obsidian.md&lt;/a&gt;).&lt;/li&gt;
