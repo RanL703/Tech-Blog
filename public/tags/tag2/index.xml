@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TAG2 on TheRanLblog</title>
-    <link>//localhost:1313/tags/tag2/</link>
+    <link>/tags/tag2/</link>
     <description>Recent content in TAG2 on TheRanLblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>iS iT wORKING?</title>
-      <link>//localhost:1313/posts/testing-hugo-posting/</link>
+      <link>/posts/testing-hugo-posting/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/testing-hugo-posting/</guid>
+      <guid>/posts/testing-hugo-posting/</guid>
       <description></description>
       <content></content>
     </item>

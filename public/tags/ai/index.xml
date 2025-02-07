@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on TheRanLblog</title>
-    <link>//localhost:1313/tags/ai/</link>
+    <link>/tags/ai/</link>
     <description>Recent content in AI on TheRanLblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My very own Local AI server!</title>
-      <link>//localhost:1313/posts/my-very-own-local-ai-server/</link>
+      <link>/posts/my-very-own-local-ai-server/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/my-very-own-local-ai-server/</guid>
+      <guid>/posts/my-very-own-local-ai-server/</guid>
       <description>&lt;p&gt;Okay, so AI is EVERYWHERE, right? It&amp;rsquo;s changing how we work, learn, create – you name it! I&amp;rsquo;m not gonna lie, I wanted my family to get in on this AI revolution too. Imagine my parents crushing it at work with super-powered research, and my little cousin sis becoming a creative genius with AI tools!&lt;/p&gt;
 &lt;p&gt;But here&amp;rsquo;s the thing that kept me up at night: &lt;em&gt;privacy&lt;/em&gt;. Seriously, handing over all our family&amp;rsquo;s data to massive AI companies, especially ones based in places where governments can just demand access?&lt;/p&gt;</description>
       <content>&lt;p&gt;Okay, so AI is EVERYWHERE, right? It&amp;rsquo;s changing how we work, learn, create – you name it! I&amp;rsquo;m not gonna lie, I wanted my family to get in on this AI revolution too. Imagine my parents crushing it at work with super-powered research, and my little cousin sis becoming a creative genius with AI tools!&lt;/p&gt;
