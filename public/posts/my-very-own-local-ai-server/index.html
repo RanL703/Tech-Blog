@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>My very own Local AI server! :: TheRanLblog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Okay, so AI is EVERYWHERE, right? It&rsquo;s changing how we work, learn, create – you name it! I&rsquo;m not gonna lie, I wanted my family to get in on this AI revolution too. Imagine my parents crushing it at work with super-powered research, and my little cousin sis becoming a creative genius with AI tools!
+But here&rsquo;s the thing that kept me up at night: privacy. Seriously, handing over all our family&rsquo;s data to massive AI companies, especially ones based in places where governments can just demand access?
+" />
+<meta name="keywords" content="" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="//localhost:1313/posts/my-very-own-local-ai-server/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/buttons.min.2bc533403a27dfe0e93105a92502b42ce4587e2e4a87d9f7d349e51e16e09478.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/code.min.00125962708925857e7b66dbc58391d55be1191a3d0ce2034de8c9cd2c481c36.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/fonts.min.4881f0c525f3ce2a1864fb6e96676396cebe1e6fcef1933e8e1dde7041004fb5.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/footer.min.2e3eb191baee58dd05a9f0104ac1fab0827bca7c64dafe0b2579f934c33a1d69.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/header.min.b6fb4423cf82a9f9d7abc9cd010223fa3d70a6526a3f28f8e17d814c06e18f9e.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/main.min.fe8dc560fccb53a458b0db19ccb7b265764ac46b68596b7e099c6793054dd457.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/menu.min.83637a90d903026bc280d3f82f96ceb06c5fc72b7c1a8d686afb5bbf818a29f7.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/pagination.min.82f6400eae7c7c6dc3c866733c2ec0579e4089608fea69400ff85b3880aa0d3c.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/post.min.fc74ca360273c1d828da3c02b8174eba435607b369d98418ccc6f2243cd4e75d.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/prism.min.9023bbc24533d09e97a51a0a42a5a7bfe4c591ae167c5551fb1d2191d11977c0.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/syntax.min.cc789ed9377260d7949ea4c18781fc58959a89287210fe4edbff44ebfc1511b6.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/terminal.min.4611bbcf3630073496020221e9e29c7f4218fce06da6e07643ffbffb6f6e3532.css">
+
+  
+  <link rel="stylesheet" href="//localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="//localhost:1313/favicon.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="My very own Local AI server!">
+<meta property="og:description" content="Okay, so AI is EVERYWHERE, right? It&rsquo;s changing how we work, learn, create – you name it! I&rsquo;m not gonna lie, I wanted my family to get in on this AI revolution too. Imagine my parents crushing it at work with super-powered research, and my little cousin sis becoming a creative genius with AI tools!
+But here&rsquo;s the thing that kept me up at night: privacy. Seriously, handing over all our family&rsquo;s data to massive AI companies, especially ones based in places where governments can just demand access?
+" />
+<meta property="og:url" content="//localhost:1313/posts/my-very-own-local-ai-server/" />
+<meta property="og:site_name" content="TheRanLblog" />
+
+  <meta property="og:image" content="//localhost:1313/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-02-07 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    The RanL Blog!
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/showcase">Showcase</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/showcase" >Showcase</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/posts/my-very-own-local-ai-server/">My very own Local AI server!</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-02-07</time></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="//localhost:1313/tags/ai/">AI</a>&nbsp;
+      
+      #<a href="//localhost:1313/tags/blogging/">blogging</a>&nbsp;
+      
+    </span>
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <p>Okay, so AI is EVERYWHERE, right? It&rsquo;s changing how we work, learn, create – you name it! I&rsquo;m not gonna lie, I wanted my family to get in on this AI revolution too. Imagine my parents crushing it at work with super-powered research, and my little cousin sis becoming a creative genius with AI tools!</p>
+<p>But here&rsquo;s the thing that kept me up at night: <em>privacy</em>. Seriously, handing over all our family&rsquo;s data to massive AI companies, especially ones based in places where governments can just demand access?</p>
+<p>No, thanks!</p>
+<p>That&rsquo;s why I went full DIY and built a personal AI server right here at home. Boom! Total control over our data, zero worries about prying eyes. Plus, I get to be the cool tech guy who sets up a safe, kid-friendly AI zone for my cousin, and an unrestricted, power-user AI for my parents. Ready to ditch the privacy headaches and build your own awesome family AI server? Let&rsquo;s dive into the WSL setup!</p>
+<p>Here are the steps, I followed, to bring this personal AI server to life:</p>
+<h2 id="prerequisites-for-wsl-installation"><strong>Prerequisites for WSL Installation:</strong><a href="#prerequisites-for-wsl-installation" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>
+<p><strong>Enable WSL:</strong> If you haven&rsquo;t already, you need to enable WSL on your Windows machine. Open PowerShell as Administrator and run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>wsl --install
+</span></span></code></pre></div><p>This command will install the default Ubuntu distribution. You may need to restart your computer after this step.</p>
+</li>
+<li>
+<p><strong>Update WSL:</strong> After installation, ensure your WSL environment is up-to-date by opening your Ubuntu terminal (you can search for &ldquo;Ubuntu&rdquo; in the Start Menu) and running:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update <span style="color:#f92672">&amp;&amp;</span> sudo apt upgrade -y
+</span></span></code></pre></div></li>
+</ul>
+<h2 id="step-1-laying-the-foundation-with-ollama">**Step 1: Laying the Foundation with Ollama<a href="#step-1-laying-the-foundation-with-ollama" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>
+<p><strong>What is Ollama?</strong> Think of Ollama as the engine that powers your AI models. Installing Ollama within WSL on Windows provides a performance advantage.</p>
+</li>
+<li>
+<p><strong>Installation in WSL:</strong> Open your Ubuntu terminal in WSL and use the following command to install Ollama:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>curl -fsSL https://ollama.com/install.sh | sh
+</span></span></code></pre></div><p>This command downloads and executes the official Ollama installation script directly in your WSL environment.</p>
+</li>
+<li>
+<p><strong>Verify Installation:</strong> After the script completes, you can verify Ollama is installed by running:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama --version
+</span></span></code></pre></div><p>This should display the installed Ollama version.</p>
+</li>
+<li>
+<p><strong>Pull the DeepSeek 1.5B Model:</strong> Immediately after verifying Ollama, pull the <code>deepseek-1.5b</code> model. This model is a capable and efficient language model you can start experimenting with. Run this command in your Ubuntu terminal:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ollama pull deepseek-r1:1.5b
+</span></span></code></pre></div><p>Ollama will download the <code>deepseek-r1:1.5b</code> model. The download time will depend on your internet connection.</p>
+</li>
+</ul>
+<h2 id="step-2-creating-a-web-interface-with-open-web-ui">**Step 2: Creating a Web Interface with Open Web UI!<a href="#step-2-creating-a-web-interface-with-open-web-ui" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>
+<p><strong>Why Open Web UI?</strong> This provides a clean and intuitive web interface to interact with your AI models. It runs inside a Docker container.</p>
+</li>
+<li>
+<p><strong>Docker Desktop Installation (Windows):</strong> You&rsquo;ll need to install Docker Desktop on your Windows host machine (not inside WSL directly). Download and install <a href="https://www.docker.com/products/docker-desktop/">Docker Desktop for Windows</a>. Ensure that WSL 2 based engine is enabled in Docker Desktop settings (Settings -&gt; General -&gt; Use the WSL 2 based engine).</p>
+</li>
+<li>
+<p><strong>Deploying Open Web UI in WSL:</strong> Open your Ubuntu terminal in WSL and use the following Docker command to deploy Open Web UI:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -d -p 8080:8080 --name open-webui --volume open-webui:/app/data --network<span style="color:#f92672">=</span>host ghcr.io/open-webui/open-webui:main
+</span></span></code></pre></div><p>Let&rsquo;s break down this command:</p>
+<ul>
+<li><code>docker run -d</code>: Runs the Docker container in detached mode (in the background).</li>
+<li><code>-p 8080:8080</code>: Maps port 8080 on your host machine to port 8080 in the container, allowing you to access Open Web UI via <code>http://localhost:8080</code> in your Windows browser.</li>
+<li><code>--name open-webui</code>: Assigns the name &ldquo;open-webui&rdquo; to the container for easier management.</li>
+<li><code>--volume open-webui:/app/data</code>: Creates a Docker volume named &ldquo;open-webui&rdquo; and mounts it to <code>/app/data</code> inside the container. This persists your Open Web UI data even if the container is removed.</li>
+<li><code>--network=host</code>: This is important for WSL. Using <code>host</code> network mode allows the Docker container to directly use the host&rsquo;s network, which simplifies networking with Ollama running in WSL.</li>
+<li><code>ghcr.io/open-webui/open-webui:main</code>: Specifies the Docker image to use for Open Web UI.</li>
+</ul>
+</li>
+<li>
+<p><strong>Accessing the Web UI:</strong> After Docker pulls the image and starts the container, navigate to <code>http://localhost:8080</code> in your web browser (on Windows). You&rsquo;ll be greeted with the Open Web UI interface.</p>
+</li>
+</ul>
+<h2 id="step-3-integrating-image-generation-with-stable-diffusion"><strong>Step 3: Integrating Image Generation with Stable Diffusion</strong><a href="#step-3-integrating-image-generation-with-stable-diffusion" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>
+<p><strong>Stable Diffusion and Automatic 1111:</strong> For AI image generation.</p>
+</li>
+<li>
+<p><strong>Prerequisites in WSL:</strong> Open your Ubuntu terminal in WSL. We&rsquo;ll use <code>conda</code> for Python environment management within WSL.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install curl git wget
+</span></span><span style="display:flex;"><span>sudo apt install python3 python3-venv
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Install Automatic 1111 in WSL:</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
+</span></span><span style="display:flex;"><span>cd stable-diffusion-webui
+</span></span><span style="display:flex;"><span>./webui.sh
+</span></span></code></pre></div><ul>
+<li><code>git clone ...</code>: Clones the Automatic 1111 repository.</li>
+<li><code>cd stable-diffusion-webui</code>: Changes directory into the cloned repository.</li>
+<li><code>./webui.sh</code>: Executes the installation script. This will take a while as it downloads necessary components, including PyTorch and Stable Diffusion models, within your WSL environment.</li>
+</ul>
+</li>
+<li>
+<p><strong>Accessing Stable Diffusion:</strong> Once the <code>webui.sh</code> script completes and starts, Stable Diffusion will be accessible through a web interface, on port 7860 (<code>http://localhost:7860</code>) in your Windows browser.</p>
+</li>
+<li>
+<p><strong>Connecting Stable Diffusion to Open Web UI:</strong> In Open Web UI&rsquo;s settings (accessed via <code>http://localhost:8080</code>), find the &ldquo;images&rdquo; section. Add the base URL of your Automatic 1111 installation. If you are running both Open Web UI and Automatic 1111 on the same machine (even with WSL), this will likely be <code>http://localhost:7860</code>.</p>
+</li>
+</ul>
+<p>Alright! Follow these WSL steps, grab that <code>deepseek-1.5b</code> model, and just like that, you&rsquo;ve got your own super-private AI server set up on your Windows machine, ready for the whole family to use! Just a heads-up – if things feel a little sluggish, you might need to adjust the settings in Docker Desktop and WSL to give everything enough resources, especially if you&rsquo;re running both Ollama and Stable Diffusion at the same time.
+Have fun exploring and see what amazing things you and your family can create together!</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+  <div class="pagination__title">
+    <span class="pagination__title-h">Read other posts</span>
+    <hr />
+  </div>
+  <div class="pagination__buttons">
+    
+    
+    
+      <a href="//localhost:1313/posts/testing-hugo-posting/" class="button inline next">
+        iS iT wORKING?
+      </a>
+    
+  </div>
+</div>
+
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

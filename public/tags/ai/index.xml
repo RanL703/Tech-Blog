@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on TheRanLblog</title>
+    <link>//localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on TheRanLblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My very own Local AI server!</title>
+      <link>//localhost:1313/posts/my-very-own-local-ai-server/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/my-very-own-local-ai-server/</guid>
+      <description>&lt;p&gt;Okay, so AI is EVERYWHERE, right? It&amp;rsquo;s changing how we work, learn, create – you name it! I&amp;rsquo;m not gonna lie, I wanted my family to get in on this AI revolution too. Imagine my parents crushing it at work with super-powered research, and my little cousin sis becoming a creative genius with AI tools!&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s the thing that kept me up at night: &lt;em&gt;privacy&lt;/em&gt;. Seriously, handing over all our family&amp;rsquo;s data to massive AI companies, especially ones based in places where governments can just demand access?&lt;/p&gt;</description>
+      <content>&lt;p&gt;Okay, so AI is EVERYWHERE, right? It&amp;rsquo;s changing how we work, learn, create – you name it! I&amp;rsquo;m not gonna lie, I wanted my family to get in on this AI revolution too. Imagine my parents crushing it at work with super-powered research, and my little cousin sis becoming a creative genius with AI tools!&lt;/p&gt;
+&lt;p&gt;But here&amp;rsquo;s the thing that kept me up at night: &lt;em&gt;privacy&lt;/em&gt;. Seriously, handing over all our family&amp;rsquo;s data to massive AI companies, especially ones based in places where governments can just demand access?&lt;/p&gt;
+&lt;p&gt;No, thanks!&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s why I went full DIY and built a personal AI server right here at home. Boom! Total control over our data, zero worries about prying eyes. Plus, I get to be the cool tech guy who sets up a safe, kid-friendly AI zone for my cousin, and an unrestricted, power-user AI for my parents. Ready to ditch the privacy headaches and build your own awesome family AI server? Let&amp;rsquo;s dive into the WSL setup!&lt;/p&gt;
+&lt;p&gt;Here are the steps, I followed, to bring this personal AI server to life:&lt;/p&gt;
+&lt;h2 id=&#34;prerequisites-for-wsl-installation&#34;&gt;&lt;strong&gt;Prerequisites for WSL Installation:&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enable WSL:&lt;/strong&gt; If you haven&amp;rsquo;t already, you need to enable WSL on your Windows machine. Open PowerShell as Administrator and run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-powershell&#34; data-lang=&#34;powershell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wsl --install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command will install the default Ubuntu distribution. You may need to restart your computer after this step.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Update WSL:&lt;/strong&gt; After installation, ensure your WSL environment is up-to-date by opening your Ubuntu terminal (you can search for &amp;ldquo;Ubuntu&amp;rdquo; in the Start Menu) and running:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt upgrade -y
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;step-1-laying-the-foundation-with-ollama&#34;&gt;**Step 1: Laying the Foundation with Ollama&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;What is Ollama?&lt;/strong&gt; Think of Ollama as the engine that powers your AI models. Installing Ollama within WSL on Windows provides a performance advantage.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Installation in WSL:&lt;/strong&gt; Open your Ubuntu terminal in WSL and use the following command to install Ollama:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl -fsSL https://ollama.com/install.sh | sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This command downloads and executes the official Ollama installation script directly in your WSL environment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Verify Installation:&lt;/strong&gt; After the script completes, you can verify Ollama is installed by running:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ollama --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This should display the installed Ollama version.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Pull the DeepSeek 1.5B Model:&lt;/strong&gt; Immediately after verifying Ollama, pull the &lt;code&gt;deepseek-1.5b&lt;/code&gt; model. This model is a capable and efficient language model you can start experimenting with. Run this command in your Ubuntu terminal:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ollama pull deepseek-r1:1.5b
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ollama will download the &lt;code&gt;deepseek-r1:1.5b&lt;/code&gt; model. The download time will depend on your internet connection.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;step-2-creating-a-web-interface-with-open-web-ui&#34;&gt;**Step 2: Creating a Web Interface with Open Web UI!&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Why Open Web UI?&lt;/strong&gt; This provides a clean and intuitive web interface to interact with your AI models. It runs inside a Docker container.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Docker Desktop Installation (Windows):&lt;/strong&gt; You&amp;rsquo;ll need to install Docker Desktop on your Windows host machine (not inside WSL directly). Download and install &lt;a href=&#34;https://www.docker.com/products/docker-desktop/&#34;&gt;Docker Desktop for Windows&lt;/a&gt;. Ensure that WSL 2 based engine is enabled in Docker Desktop settings (Settings -&amp;gt; General -&amp;gt; Use the WSL 2 based engine).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Deploying Open Web UI in WSL:&lt;/strong&gt; Open your Ubuntu terminal in WSL and use the following Docker command to deploy Open Web UI:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;docker run -d -p 8080:8080 --name open-webui --volume open-webui:/app/data --network&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;host ghcr.io/open-webui/open-webui:main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Let&amp;rsquo;s break down this command:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;docker run -d&lt;/code&gt;: Runs the Docker container in detached mode (in the background).&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-p 8080:8080&lt;/code&gt;: Maps port 8080 on your host machine to port 8080 in the container, allowing you to access Open Web UI via &lt;code&gt;http://localhost:8080&lt;/code&gt; in your Windows browser.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--name open-webui&lt;/code&gt;: Assigns the name &amp;ldquo;open-webui&amp;rdquo; to the container for easier management.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--volume open-webui:/app/data&lt;/code&gt;: Creates a Docker volume named &amp;ldquo;open-webui&amp;rdquo; and mounts it to &lt;code&gt;/app/data&lt;/code&gt; inside the container. This persists your Open Web UI data even if the container is removed.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--network=host&lt;/code&gt;: This is important for WSL. Using &lt;code&gt;host&lt;/code&gt; network mode allows the Docker container to directly use the host&amp;rsquo;s network, which simplifies networking with Ollama running in WSL.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ghcr.io/open-webui/open-webui:main&lt;/code&gt;: Specifies the Docker image to use for Open Web UI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Accessing the Web UI:&lt;/strong&gt; After Docker pulls the image and starts the container, navigate to &lt;code&gt;http://localhost:8080&lt;/code&gt; in your web browser (on Windows). You&amp;rsquo;ll be greeted with the Open Web UI interface.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;step-3-integrating-image-generation-with-stable-diffusion&#34;&gt;&lt;strong&gt;Step 3: Integrating Image Generation with Stable Diffusion&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Stable Diffusion and Automatic 1111:&lt;/strong&gt; For AI image generation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Prerequisites in WSL:&lt;/strong&gt; Open your Ubuntu terminal in WSL. We&amp;rsquo;ll use &lt;code&gt;conda&lt;/code&gt; for Python environment management within WSL.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install curl git wget
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt install python3 python3-venv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Install Automatic 1111 in WSL:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd stable-diffusion-webui
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;./webui.sh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git clone ...&lt;/code&gt;: Clones the Automatic 1111 repository.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd stable-diffusion-webui&lt;/code&gt;: Changes directory into the cloned repository.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;./webui.sh&lt;/code&gt;: Executes the installation script. This will take a while as it downloads necessary components, including PyTorch and Stable Diffusion models, within your WSL environment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Accessing Stable Diffusion:&lt;/strong&gt; Once the &lt;code&gt;webui.sh&lt;/code&gt; script completes and starts, Stable Diffusion will be accessible through a web interface, on port 7860 (&lt;code&gt;http://localhost:7860&lt;/code&gt;) in your Windows browser.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Connecting Stable Diffusion to Open Web UI:&lt;/strong&gt; In Open Web UI&amp;rsquo;s settings (accessed via &lt;code&gt;http://localhost:8080&lt;/code&gt;), find the &amp;ldquo;images&amp;rdquo; section. Add the base URL of your Automatic 1111 installation. If you are running both Open Web UI and Automatic 1111 on the same machine (even with WSL), this will likely be &lt;code&gt;http://localhost:7860&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alright! Follow these WSL steps, grab that &lt;code&gt;deepseek-1.5b&lt;/code&gt; model, and just like that, you&amp;rsquo;ve got your own super-private AI server set up on your Windows machine, ready for the whole family to use! Just a heads-up – if things feel a little sluggish, you might need to adjust the settings in Docker Desktop and WSL to give everything enough resources, especially if you&amp;rsquo;re running both Ollama and Stable Diffusion at the same time.
+Have fun exploring and see what amazing things you and your family can create together!&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
