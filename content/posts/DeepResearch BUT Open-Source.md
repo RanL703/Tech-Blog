@@ -63,8 +63,7 @@ Ready to unleash DeepResearch with Gemini? Let's get you set up in a few easy pe
     ```bash
     npm run dev "what is the latest blog post's title from jina ai?"
     ```
-    **(Visual Aid: Embed `demo1.gif` from the GitHub README here to show this command in action and the output)**
-    
+
     Boom! DeepResearch, powered by Gemini, gets to work. It'll search, analyze, reason, and BAM – the answer pops up right in your terminal.
     
 5. **Crank Up the Complexity:**

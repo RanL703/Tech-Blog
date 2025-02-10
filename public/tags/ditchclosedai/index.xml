@@ -66,8 +66,7 @@
 &lt;p&gt;&lt;strong&gt;First Test Drive!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Time to see DeepResearch in action! Use the &lt;code&gt;npm run dev&lt;/code&gt; command, followed by your burning question in quotes. Let&amp;rsquo;s kick things off with a simple one:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;npm run dev &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;what is the latest blog post&amp;#39;s title from jina ai?&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;(Visual Aid: Embed &lt;code&gt;demo1.gif&lt;/code&gt; from the GitHub README here to show this command in action and the output)&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Boom! DeepResearch, powered by Gemini, gets to work. It&amp;rsquo;ll search, analyze, reason, and BAM – the answer pops up right in your terminal.&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Boom! DeepResearch, powered by Gemini, gets to work. It&amp;rsquo;ll search, analyze, reason, and BAM – the answer pops up right in your terminal.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Crank Up the Complexity:&lt;/strong&gt;&lt;/p&gt;
