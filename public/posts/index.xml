@@ -6,7 +6,88 @@
     <description>Recent content in Posts on TheRanLblog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jarvis Welcome Automation</title>
+      <link>/posts/2025-03-11-jarvis-welcome-automation/</link>
+      <pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2025-03-11-jarvis-welcome-automation/</guid>
+      <description>&lt;h1 id=&#34;jarvis-welcome-automation&#34;&gt;Jarvis Welcome Automation&lt;/h1&gt;
+&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
+&lt;p&gt;Voice-Activated Workspace Assistant&lt;/p&gt;
+&lt;p&gt;A Windows voice assistant that launches your coding workspace with a voice command.&lt;/p&gt;
+&lt;p&gt;Features&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voice activation with customizable wake phrase&lt;/li&gt;
+&lt;li&gt;Launches your coding workspace via shortcut&lt;/li&gt;
+&lt;li&gt;Snarky AI responses using Gemini (online) or Ollama (offline)&lt;/li&gt;
+&lt;li&gt;Text-to-speech feedback&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Are you getting excited yet? You should be!&lt;/p&gt;
+&lt;h3 id=&#34;code-highlights&#34;&gt;Code Highlights&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s dive into some &lt;strong&gt;awesome code&lt;/strong&gt; that makes this project tick:&lt;/p&gt;
+&lt;h4 id=&#34;voice_assistantpy&#34;&gt;voice_assistant.py&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import speech_recognition as sr
+import pyttsx3
+import google.generativeai as genai
+import requests
+import subprocess
+from dotenv import load_dotenv
+import os
+import socket
+
+# Load environment variables
+load_dotenv()
+
+# Configuration
+GEMINI_API_KEY = os.getenv(&amp;#39;GEMINI_API_KEY&amp;#39;)
+OLLAMA_URL = os.getenv(&amp;#39;OLLAMA_URL&amp;#39;, &amp;#39;http://localhost:11434/api/generate&amp;#39;)
+// ... more code ...
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Wow! This project demonstrates incredible skills in &lt;strong&gt;Python&lt;/strong&gt; and python, ai. Check out the repository for more details and feel free to contribute! Trust me, you don&amp;rsquo;t want to miss this one!&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;jarvis-welcome-automation&#34;&gt;Jarvis Welcome Automation&lt;/h1&gt;
+&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
+&lt;p&gt;Voice-Activated Workspace Assistant&lt;/p&gt;
+&lt;p&gt;A Windows voice assistant that launches your coding workspace with a voice command.&lt;/p&gt;
+&lt;p&gt;Features&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Voice activation with customizable wake phrase&lt;/li&gt;
+&lt;li&gt;Launches your coding workspace via shortcut&lt;/li&gt;
+&lt;li&gt;Snarky AI responses using Gemini (online) or Ollama (offline)&lt;/li&gt;
+&lt;li&gt;Text-to-speech feedback&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Are you getting excited yet? You should be!&lt;/p&gt;
+&lt;h3 id=&#34;code-highlights&#34;&gt;Code Highlights&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s dive into some &lt;strong&gt;awesome code&lt;/strong&gt; that makes this project tick:&lt;/p&gt;
+&lt;h4 id=&#34;voice_assistantpy&#34;&gt;voice_assistant.py&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import speech_recognition as sr
+import pyttsx3
+import google.generativeai as genai
+import requests
+import subprocess
+from dotenv import load_dotenv
+import os
+import socket
+
+# Load environment variables
+load_dotenv()
+
+# Configuration
+GEMINI_API_KEY = os.getenv(&amp;#39;GEMINI_API_KEY&amp;#39;)
+OLLAMA_URL = os.getenv(&amp;#39;OLLAMA_URL&amp;#39;, &amp;#39;http://localhost:11434/api/generate&amp;#39;)
+// ... more code ...
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Wow! This project demonstrates incredible skills in &lt;strong&gt;Python&lt;/strong&gt; and python, ai. Check out the repository for more details and feel free to contribute! Trust me, you don&amp;rsquo;t want to miss this one!&lt;/p&gt;
+&lt;h2 id=&#34;project-details&#34;&gt;Project Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Repository: &lt;a href=&#34;https://github.com/RanL703/Jarvis-welcome-automation&#34;&gt;Jarvis-welcome-automation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Created: 2025-02-24&lt;/li&gt;
+&lt;li&gt;Language: Python&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
     <item>
       <title>Blog 2 Tweet Agent</title>
       <link>/posts/2025-02-26-blog-2-tweet-agent/</link>

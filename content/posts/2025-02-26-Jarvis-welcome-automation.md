@@ -4,7 +4,6 @@ date: 2025-02-26
 draft: false
 tags: ["ai", "python"]
 ---
-
 # Jarvis Welcome Automation
 
 Hey there, tech enthusiast! Are you ready to take your productivity to the next level with a **voice-activated workspace assistant**? You're in luck because I'm about to introduce you to an amazing GitHub project that's going to change the way you work forever! 

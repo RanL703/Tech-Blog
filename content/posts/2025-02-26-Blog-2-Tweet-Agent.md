@@ -4,7 +4,6 @@ date: 2025-02-26
 draft: false
 tags: ["ai", "python"]
 ---
-
 # Blog 2 Tweet Agent
 
 Hey there, tech enthusiast! Are you tired of manually sharing your blog posts on Twitter? **You're in luck!** I've got something amazing to share with you - the Blog-2-Tweet-Agent, a **game-changing** GitHub project that turns your blog posts into engaging Twitter threads **automatically**! Can you imagine having more time to focus on what matters most - creating awesome content - while this bot does the heavy lifting for you?
