@@ -8,52 +8,70 @@
     <language>en</language>
     <lastBuildDate>Wed, 12 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ranl703</title>
-      <link>/posts/2025-03-12-ranl703/</link>
+      <title>Jarvis Welcome Automation</title>
+      <link>/posts/2025-03-12-jarvis-welcome-automation/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>/posts/2025-03-12-ranl703/</guid>
-      <description>&lt;h1 id=&#34;ranl703&#34;&gt;Ranl703&lt;/h1&gt;
-&lt;p&gt;Hey there, tech enthusiast! Are you ready to dive into an amazing GitHub project that&amp;rsquo;s all about &lt;strong&gt;sharing knowledge&lt;/strong&gt; and &lt;strong&gt;learning from others&lt;/strong&gt;? You&amp;rsquo;re in luck because today we&amp;rsquo;re going to explore the incredible world of &lt;strong&gt;RanL703&lt;/strong&gt;!&lt;/p&gt;
+      <guid>/posts/2025-03-12-jarvis-welcome-automation/</guid>
+      <description>&lt;h1 id=&#34;jarvis-welcome-automation&#34;&gt;Jarvis Welcome Automation&lt;/h1&gt;
+&lt;p&gt;Hey there, tech enthusiast! Are you ready to take your productivity to the next level? &lt;strong&gt;Imagine being able to launch your entire coding workspace with just a voice command&lt;/strong&gt;! Sounds like something out of a sci-fi movie, right? Well, welcome to the &lt;strong&gt;Jarvis-welcome-automation&lt;/strong&gt; project on GitHub, where this fantasy becomes a reality!&lt;/p&gt;
 &lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
-&lt;p&gt;So, what is RanL703 all about? At its core, it&amp;rsquo;s a personal repository of a &lt;strong&gt;Software Developer&lt;/strong&gt; named Ranadeep, who&amp;rsquo;s passionate about &lt;strong&gt;Data Science&lt;/strong&gt; and &lt;strong&gt;Machine Learning&lt;/strong&gt;. This project is a reflection of Ranadeep&amp;rsquo;s journey in the tech world, where he shares his &lt;strong&gt;learnings&lt;/strong&gt;, &lt;strong&gt;experiences&lt;/strong&gt;, and &lt;strong&gt;projects&lt;/strong&gt; with the community. But what makes this project so cool? For starters, it&amp;rsquo;s a great example of how &lt;strong&gt;open-source&lt;/strong&gt; and &lt;strong&gt;collaboration&lt;/strong&gt; can help us grow as developers!&lt;/p&gt;</description>
-      <content>&lt;h1 id=&#34;ranl703&#34;&gt;Ranl703&lt;/h1&gt;
-&lt;p&gt;Hey there, tech enthusiast! Are you ready to dive into an amazing GitHub project that&amp;rsquo;s all about &lt;strong&gt;sharing knowledge&lt;/strong&gt; and &lt;strong&gt;learning from others&lt;/strong&gt;? You&amp;rsquo;re in luck because today we&amp;rsquo;re going to explore the incredible world of &lt;strong&gt;RanL703&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;So, what exactly is this project all about? In a nutshell, it&amp;rsquo;s a &lt;strong&gt;Windows voice assistant&lt;/strong&gt; that lets you launch your coding workspace with a simple voice command. But that&amp;rsquo;s not all - it also comes with some amazing features like &lt;strong&gt;snarky AI responses&lt;/strong&gt; and &lt;strong&gt;text-to-speech feedback&lt;/strong&gt;. Can you imagine having a conversation with your computer like you would with a friend?&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;jarvis-welcome-automation&#34;&gt;Jarvis Welcome Automation&lt;/h1&gt;
+&lt;p&gt;Hey there, tech enthusiast! Are you ready to take your productivity to the next level? &lt;strong&gt;Imagine being able to launch your entire coding workspace with just a voice command&lt;/strong&gt;! Sounds like something out of a sci-fi movie, right? Well, welcome to the &lt;strong&gt;Jarvis-welcome-automation&lt;/strong&gt; project on GitHub, where this fantasy becomes a reality!&lt;/p&gt;
 &lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
-&lt;p&gt;So, what is RanL703 all about? At its core, it&amp;rsquo;s a personal repository of a &lt;strong&gt;Software Developer&lt;/strong&gt; named Ranadeep, who&amp;rsquo;s passionate about &lt;strong&gt;Data Science&lt;/strong&gt; and &lt;strong&gt;Machine Learning&lt;/strong&gt;. This project is a reflection of Ranadeep&amp;rsquo;s journey in the tech world, where he shares his &lt;strong&gt;learnings&lt;/strong&gt;, &lt;strong&gt;experiences&lt;/strong&gt;, and &lt;strong&gt;projects&lt;/strong&gt; with the community. But what makes this project so cool? For starters, it&amp;rsquo;s a great example of how &lt;strong&gt;open-source&lt;/strong&gt; and &lt;strong&gt;collaboration&lt;/strong&gt; can help us grow as developers!&lt;/p&gt;
+&lt;p&gt;So, what exactly is this project all about? In a nutshell, it&amp;rsquo;s a &lt;strong&gt;Windows voice assistant&lt;/strong&gt; that lets you launch your coding workspace with a simple voice command. But that&amp;rsquo;s not all - it also comes with some amazing features like &lt;strong&gt;snarky AI responses&lt;/strong&gt; and &lt;strong&gt;text-to-speech feedback&lt;/strong&gt;. Can you imagine having a conversation with your computer like you would with a friend?&lt;/p&gt;
 &lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
-&lt;p&gt;Here are some of the standout features of RanL703:&lt;/p&gt;
+&lt;p&gt;Here are some of the standout features of this project:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Tech Stack&lt;/strong&gt;: Ranadeep&amp;rsquo;s proficiency in &lt;strong&gt;Java&lt;/strong&gt;, &lt;strong&gt;Python&lt;/strong&gt;, &lt;strong&gt;MySQL&lt;/strong&gt;, &lt;strong&gt;C++&lt;/strong&gt;, and &lt;strong&gt;HTML5&lt;/strong&gt; is truly impressive!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Data Science and Machine Learning&lt;/strong&gt;: The project showcases Ranadeep&amp;rsquo;s interest in these cutting-edge technologies!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Personal Projects&lt;/strong&gt;: You&amp;rsquo;ll find a collection of projects that demonstrate Ranadeep&amp;rsquo;s skills and creativity!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Learning Resources&lt;/strong&gt;: RanL703 is a treasure trove of learning materials and resources for aspiring developers!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Voice activation&lt;/strong&gt; with a customizable wake phrase - because who doesn&amp;rsquo;t want to feel like a boss?&lt;/li&gt;
+&lt;li&gt;Launches your coding workspace via a shortcut - no more tedious clicking and typing!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Snarky AI responses&lt;/strong&gt; using Gemini (online) or Ollama (offline) - because a little humor never hurt anyone!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Text-to-speech feedback&lt;/strong&gt; - so you can stay focused on your code without having to constantly check your screen&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;technical-highlights&#34;&gt;Technical Highlights&lt;/h3&gt;
-&lt;p&gt;So, what makes RanL703 technically impressive? For one, Ranadeep&amp;rsquo;s use of &lt;strong&gt;badges&lt;/strong&gt; from &lt;strong&gt;markdown-badges&lt;/strong&gt; to showcase his tech stack is a great touch! Additionally, the project&amp;rsquo;s &lt;strong&gt;README&lt;/strong&gt; file is a masterpiece of &lt;strong&gt;Markdown&lt;/strong&gt; formatting, making it easy to navigate and understand. But what really sets RanL703 apart is its &lt;strong&gt;focus on community engagement&lt;/strong&gt; - Ranadeep is always looking for ways to improve and learn from others!&lt;/p&gt;
+&lt;p&gt;So, what makes this project technically impressive? For starters, it&amp;rsquo;s built using &lt;strong&gt;Python 3.11&lt;/strong&gt;, which is the latest and greatest version of the language. It also uses &lt;strong&gt;PyAudio&lt;/strong&gt; for audio processing, which is a powerful library that makes it easy to work with audio in Python. And let&amp;rsquo;s not forget about the &lt;strong&gt;AI models&lt;/strong&gt; used for the snarky responses - Gemini and Ollama are both cutting-edge models that can understand and respond to natural language input.&lt;/p&gt;
 &lt;h3 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h3&gt;
-&lt;p&gt;Now, you might be wondering how you can use RanL703 in real life. Here are a few examples:&lt;/p&gt;
+&lt;p&gt;But how would you actually use this project in real life? Here are a few examples:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Learning from others&lt;/strong&gt;: You can explore Ranadeep&amp;rsquo;s projects and learn from his experiences!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Getting inspired&lt;/strong&gt;: RanL703 is a great source of inspiration for your own projects and ideas!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Collaboration&lt;/strong&gt;: You can reach out to Ranadeep and collaborate on projects that interest you both!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Improving your skills&lt;/strong&gt;: By following Ranadeep&amp;rsquo;s journey, you can pick up new skills and stay up-to-date with the latest trends in tech!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Launch your coding workspace&lt;/strong&gt; with a voice command, so you can start working on your project right away.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Get feedback&lt;/strong&gt; on your code with text-to-speech responses, so you can stay focused on your work without having to constantly check your screen.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Have fun&lt;/strong&gt; with the snarky AI responses - because coding can be serious business, but it doesn&amp;rsquo;t have to be boring!&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;pro-tips-or-implementation-details&#34;&gt;Pro Tips or Implementation Details&lt;/h3&gt;
-&lt;p&gt;If you&amp;rsquo;re interested in creating your own repository like RanL703, here are some pro tips:&lt;/p&gt;
+&lt;p&gt;So, you want to get started with the project? Here are some pro tips to keep in mind:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Be consistent&lt;/strong&gt;: Regularly update your repository with new projects and learnings!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Engage with the community&lt;/strong&gt;: Respond to comments and messages, and be open to feedback and collaboration!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Showcase your personality&lt;/strong&gt;: Make your repository reflect your unique style and interests!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Keep learning&lt;/strong&gt;: Stay curious and always look for ways to improve your skills and knowledge!&lt;/li&gt;
+&lt;li&gt;Make sure to &lt;strong&gt;install Python 3.11&lt;/strong&gt; and &lt;strong&gt;PyAudio&lt;/strong&gt; before running the project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Configure your environment&lt;/strong&gt; by setting up your &lt;code&gt;.env&lt;/code&gt; file with your Gemini API key and workspace shortcut.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Choose your AI model&lt;/strong&gt; - do you want to use Gemini for online responses or Ollama for offline responses?&lt;/li&gt;
+&lt;li&gt;If you&amp;rsquo;re using &lt;strong&gt;PowerToys&lt;/strong&gt;, make sure to set up your workspace and create a shortcut to activate it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some other things to keep in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You&amp;rsquo;ll need to &lt;strong&gt;pull the Ollama model&lt;/strong&gt; if you want to use it for offline responses.&lt;/li&gt;
+&lt;li&gt;You can &lt;strong&gt;customize your wake phrase&lt;/strong&gt; to whatever you like - just make sure it&amp;rsquo;s not too similar to other voice commands you use!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-&lt;p&gt;So, what are you waiting for? Head over to the &lt;strong&gt;RanL703&lt;/strong&gt; repository and start exploring! This project is a &lt;strong&gt;must-visit&lt;/strong&gt; for anyone interested in &lt;strong&gt;Data Science&lt;/strong&gt;, &lt;strong&gt;Machine Learning&lt;/strong&gt;, and &lt;strong&gt;Software Development&lt;/strong&gt;. Remember, the key to success is to &lt;strong&gt;keep learning&lt;/strong&gt;, &lt;strong&gt;stay curious&lt;/strong&gt;, and &lt;strong&gt;always be open to new opportunities&lt;/strong&gt;! Don&amp;rsquo;t be afraid to reach out to Ranadeep and start a conversation - you never know what amazing things you might learn or achieve! &lt;strong&gt;Happy coding&lt;/strong&gt;, and see you in the next post!&lt;/p&gt;
-&lt;h2 id=&#34;project-details&#34;&gt;Project Details&lt;/h2&gt;
+&lt;p&gt;So, what are you waiting for? &lt;strong&gt;Head on over to the Jarvis-welcome-automation repo&lt;/strong&gt; and start exploring the code! With this project, you&amp;rsquo;ll be able to launch your coding workspace with just a voice command, and get feedback on your code with text-to-speech responses. It&amp;rsquo;s like having your own personal assistant, right at your fingertips! &lt;strong&gt;Don&amp;rsquo;t be shy - give it a try and see what you can create&lt;/strong&gt;!&lt;/p&gt;
+&lt;h3 id=&#34;code-highlights&#34;&gt;Code Highlights&lt;/h3&gt;
+&lt;p&gt;Check out this &lt;strong&gt;awesome code snippet&lt;/strong&gt; from the project:&lt;/p&gt;
+&lt;h4 id=&#34;voice_assistantpy&#34;&gt;voice_assistant.py&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import speech_recognition as sr
+import pyttsx3
+import google.generativeai as genai
+import requests
+import subprocess
+from dotenv import load_dotenv
+import os
+import socket
+
+# Load environment variables
+// ... more code ...
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;project-details&#34;&gt;Project Details&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;GitHub Repository: &lt;a href=&#34;https://github.com/RanL703/RanL703&#34;&gt;RanL703&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Created: 2024-07-23&lt;/li&gt;
-&lt;li&gt;Language: Not specified&lt;/li&gt;
+&lt;li&gt;GitHub Repository: &lt;a href=&#34;https://github.com/RanL703/Jarvis-welcome-automation&#34;&gt;Jarvis-welcome-automation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Created: 2025-02-24&lt;/li&gt;
+&lt;li&gt;Language: Python&lt;/li&gt;
 &lt;/ul&gt;
 </content>
     </item>
