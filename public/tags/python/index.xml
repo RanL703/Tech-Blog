@@ -8,6 +8,75 @@
     <language>en</language>
     <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Bloggeragent</title>
+      <link>/posts/2025-03-14-bloggeragent/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2025-03-14-bloggeragent/</guid>
+      <description>&lt;h1 id=&#34;bloggeragent&#34;&gt;Bloggeragent&lt;/h1&gt;
+&lt;p&gt;Are you tired of manually creating blog posts about your GitHub projects? &lt;strong&gt;You&amp;rsquo;re in luck!&lt;/strong&gt; Because today, we&amp;rsquo;re going to explore an amazing project that&amp;rsquo;s about to change the game: &lt;strong&gt;BloggerAgent&lt;/strong&gt;! This incredible tool automatically generates blog posts from your GitHub repositories and publishes them to your Hugo blog site. Can you imagine having more time to focus on coding, while your blog stays up-to-date with your latest projects?&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;bloggeragent&#34;&gt;Bloggeragent&lt;/h1&gt;
+&lt;p&gt;Are you tired of manually creating blog posts about your GitHub projects? &lt;strong&gt;You&amp;rsquo;re in luck!&lt;/strong&gt; Because today, we&amp;rsquo;re going to explore an amazing project that&amp;rsquo;s about to change the game: &lt;strong&gt;BloggerAgent&lt;/strong&gt;! This incredible tool automatically generates blog posts from your GitHub repositories and publishes them to your Hugo blog site. Can you imagine having more time to focus on coding, while your blog stays up-to-date with your latest projects?&lt;/p&gt;
+&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
+&lt;p&gt;So, what exactly is &lt;strong&gt;BloggerAgent&lt;/strong&gt;? In a nutshell, it&amp;rsquo;s a Python-based project that uses &lt;strong&gt;AI-powered content generation&lt;/strong&gt; (via OpenRouter) or a fallback method to create blog posts about your GitHub repositories. But that&amp;rsquo;s not all - it also saves these posts to your &lt;strong&gt;Obsidian vault&lt;/strong&gt; and syncs them with your &lt;strong&gt;Hugo blog&lt;/strong&gt;, deploying changes seamlessly! The best part? It keeps track of processed repositories to avoid duplication, so you don&amp;rsquo;t have to worry about ending up with multiple posts about the same project.&lt;/p&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
+&lt;p&gt;Here are the standout features of &lt;strong&gt;BloggerAgent&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🤖 Automatically discovers your new GitHub repositories&lt;/li&gt;
+&lt;li&gt;✍️ Generates blog posts using AI (via OpenRouter) or a fallback method&lt;/li&gt;
+&lt;li&gt;📚 Saves posts to your Obsidian vault&lt;/li&gt;
+&lt;li&gt;🚀 Syncs with your Hugo blog and deploys changes&lt;/li&gt;
+&lt;li&gt;🔄 Keeps track of processed repositories to avoid duplication
+What do you think? Are you as excited as I am about the possibilities?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;technical-highlights&#34;&gt;Technical Highlights&lt;/h3&gt;
+&lt;p&gt;So, what makes &lt;strong&gt;BloggerAgent&lt;/strong&gt; technically impressive? For starters, it&amp;rsquo;s built using &lt;strong&gt;Python 3.6+&lt;/strong&gt;, which means it&amp;rsquo;s stable, efficient, and easy to maintain. The project also uses &lt;strong&gt;OpenRouter&lt;/strong&gt; for AI-powered content generation, which is a cutting-edge technology that&amp;rsquo;s still evolving! But what really sets it apart is its ability to integrate with &lt;strong&gt;Obsidian&lt;/strong&gt; and &lt;strong&gt;Hugo&lt;/strong&gt;, two popular tools in the developer community. Can you imagine the possibilities when you combine these powerful tools?&lt;/p&gt;
+&lt;h3 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h3&gt;
+&lt;p&gt;Now, let&amp;rsquo;s talk about how you might use &lt;strong&gt;BloggerAgent&lt;/strong&gt; in real life. Here are a few examples:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Automating blog posts&lt;/strong&gt;: If you&amp;rsquo;re a developer who wants to showcase your projects on a blog, &lt;strong&gt;BloggerAgent&lt;/strong&gt; can save you a ton of time and effort.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Content generation&lt;/strong&gt;: If you&amp;rsquo;re struggling to come up with content ideas, &lt;strong&gt;BloggerAgent&lt;/strong&gt;&amp;rsquo;s AI-powered generation can help spark some creativity!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Streamlining workflows&lt;/strong&gt;: If you&amp;rsquo;re already using &lt;strong&gt;Obsidian&lt;/strong&gt; and &lt;strong&gt;Hugo&lt;/strong&gt;, &lt;strong&gt;BloggerAgent&lt;/strong&gt; can help you streamline your workflow and reduce manual labor.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;pro-tips-or-implementation-details&#34;&gt;Pro Tips or Implementation Details&lt;/h3&gt;
+&lt;p&gt;To get the most out of &lt;strong&gt;BloggerAgent&lt;/strong&gt;, here are some pro tips:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure you have &lt;strong&gt;Python 3.6+&lt;/strong&gt; installed on your machine.&lt;/li&gt;
+&lt;li&gt;Set up your &lt;strong&gt;GitHub account&lt;/strong&gt; and generate a &lt;strong&gt;personal access token&lt;/strong&gt; with the required scopes.&lt;/li&gt;
+&lt;li&gt;Configure your &lt;strong&gt;Obsidian vault&lt;/strong&gt; and &lt;strong&gt;Hugo blog&lt;/strong&gt; settings in the &lt;code&gt;.env&lt;/code&gt; file.&lt;/li&gt;
+&lt;li&gt;Experiment with different &lt;strong&gt;OpenRouter API&lt;/strong&gt; settings to fine-tune your content generation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some other things to keep in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub Token Setup&lt;/strong&gt;: Follow the instructions in the README to set up your GitHub token.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Path Configuration&lt;/strong&gt;: Make sure you configure your &lt;strong&gt;Obsidian vault&lt;/strong&gt; and &lt;strong&gt;Hugo blog&lt;/strong&gt; paths correctly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;And there you have it - &lt;strong&gt;BloggerAgent&lt;/strong&gt; is an incredible project that can revolutionize the way you create and manage your blog content! With its &lt;strong&gt;AI-powered content generation&lt;/strong&gt;, &lt;strong&gt;Obsidian&lt;/strong&gt; and &lt;strong&gt;Hugo&lt;/strong&gt; integration, and &lt;strong&gt;automatic deployment&lt;/strong&gt;, it&amp;rsquo;s a game-changer for developers who want to showcase their projects. So what are you waiting for? &lt;strong&gt;Check out the repository&lt;/strong&gt;, start exploring, and see how &lt;strong&gt;BloggerAgent&lt;/strong&gt; can transform your blogging experience!&lt;/p&gt;
+&lt;h3 id=&#34;code-highlights&#34;&gt;Code Highlights&lt;/h3&gt;
+&lt;p&gt;Check out this &lt;strong&gt;awesome code snippet&lt;/strong&gt; from the project:&lt;/p&gt;
+&lt;h4 id=&#34;blog_generatorpy&#34;&gt;blog_generator.py&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import re
+from datetime import datetime
+from typing import Dict, List
+import requests
+import json
+import os
+
+class BlogGenerator:
+    def __init__(self, template: str):
+        self.template = template
+// ... more code ...
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;project-details&#34;&gt;Project Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Repository: &lt;a href=&#34;https://github.com/RanL703/BloggerAgent&#34;&gt;BloggerAgent&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Created: 2025-03-14&lt;/li&gt;
+&lt;li&gt;Language: Python&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>Linkedinagent</title>
       <link>/posts/2025-03-14-linkedinagent/</link>
       <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
