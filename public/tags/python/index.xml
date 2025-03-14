@@ -75,6 +75,79 @@ from dotenv import load_dotenv
     </item>
     
     <item>
+      <title>Spotiauto</title>
+      <link>/posts/2025-03-14-spotiauto/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2025-03-14-spotiauto/</guid>
+      <description>&lt;h1 id=&#34;spotiauto&#34;&gt;Spotiauto&lt;/h1&gt;
+&lt;h3 id=&#34;hooked-on-music-automation&#34;&gt;Hooked on Music Automation?&lt;/h3&gt;
+&lt;p&gt;Are you tired of manually updating your Spotify playlists with the latest releases from your favorite artists? Well, &lt;strong&gt;you&amp;rsquo;re in luck&lt;/strong&gt;! Imagine having a tool that automatically keeps your playlists fresh and up-to-date, so you can focus on what really matters - &lt;strong&gt;enjoying the music&lt;/strong&gt;! Let&amp;rsquo;s dive into the amazing world of &lt;strong&gt;SpotiAuto&lt;/strong&gt;, a Python-based automation tool that&amp;rsquo;s about to revolutionize your music streaming experience!&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;spotiauto&#34;&gt;Spotiauto&lt;/h1&gt;
+&lt;h3 id=&#34;hooked-on-music-automation&#34;&gt;Hooked on Music Automation?&lt;/h3&gt;
+&lt;p&gt;Are you tired of manually updating your Spotify playlists with the latest releases from your favorite artists? Well, &lt;strong&gt;you&amp;rsquo;re in luck&lt;/strong&gt;! Imagine having a tool that automatically keeps your playlists fresh and up-to-date, so you can focus on what really matters - &lt;strong&gt;enjoying the music&lt;/strong&gt;! Let&amp;rsquo;s dive into the amazing world of &lt;strong&gt;SpotiAuto&lt;/strong&gt;, a Python-based automation tool that&amp;rsquo;s about to revolutionize your music streaming experience!&lt;/p&gt;
+&lt;h3 id=&#34;project-overview&#34;&gt;Project Overview&lt;/h3&gt;
+&lt;p&gt;So, what is &lt;strong&gt;SpotiAuto&lt;/strong&gt;? In a nutshell, it&amp;rsquo;s a &lt;strong&gt;game-changing&lt;/strong&gt; script that synchronizes new tracks from your favorite artists to their dedicated playlists on Spotify. But that&amp;rsquo;s not all - it&amp;rsquo;s also incredibly &lt;strong&gt;easy to use&lt;/strong&gt; and &lt;strong&gt;customizable&lt;/strong&gt;, making it a must-have for any music lover! But what makes &lt;strong&gt;SpotiAuto&lt;/strong&gt; truly special? Is it the fact that it&amp;rsquo;s &lt;strong&gt;free&lt;/strong&gt;, &lt;strong&gt;open-source&lt;/strong&gt;, and &lt;strong&gt;community-driven&lt;/strong&gt;? Or is it the &lt;strong&gt;cutting-edge technology&lt;/strong&gt; that powers it? Whatever the reason, one thing is clear: &lt;strong&gt;SpotiAuto&lt;/strong&gt; is the perfect solution for anyone looking to &lt;strong&gt;take their music streaming to the next level&lt;/strong&gt;!&lt;/p&gt;
+&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;
+&lt;p&gt;Here are just a few of the &lt;strong&gt;standout features&lt;/strong&gt; that make &lt;strong&gt;SpotiAuto&lt;/strong&gt; so amazing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automated new release detection based on a &lt;strong&gt;configurable lookback period&lt;/strong&gt; - how cool is that?&lt;/li&gt;
+&lt;li&gt;Batch processing with &lt;strong&gt;smart rate limiting&lt;/strong&gt; (3 tracks per batch) to prevent overwhelming the Spotify API&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resilient error handling&lt;/strong&gt; with an exponential backoff retry mechanism, because &lt;strong&gt;reliability matters&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Duplicate track prevention using &lt;strong&gt;playlist state tracking&lt;/strong&gt;, so you don&amp;rsquo;t have to worry about duplicates&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Comprehensive logging&lt;/strong&gt; with both file and console output, making it easy to track what&amp;rsquo;s happening&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OAuth-based Spotify authentication&lt;/strong&gt; using Spotipy, for &lt;strong&gt;secure and seamless&lt;/strong&gt; authentication&lt;/li&gt;
+&lt;li&gt;Last run date tracking to &lt;strong&gt;optimize API calls&lt;/strong&gt; and reduce unnecessary requests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;technical-highlights&#34;&gt;Technical Highlights&lt;/h3&gt;
+&lt;p&gt;So, what makes &lt;strong&gt;SpotiAuto&lt;/strong&gt; technically impressive? For starters, it&amp;rsquo;s built using &lt;strong&gt;Python&lt;/strong&gt;, one of the most popular and versatile programming languages out there! But that&amp;rsquo;s not all - it also features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A &lt;strong&gt;modular design&lt;/strong&gt;, with separate components for Spotify API interactions (&lt;strong&gt;SpotifyClient&lt;/strong&gt;) and automation workflow orchestration (&lt;strong&gt;PlaylistAutomation&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Rate limiting protection&lt;/strong&gt; to prevent 429 responses and ensure &lt;strong&gt;smooth operation&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Retry decorators&lt;/strong&gt; with exponential backoff, for &lt;strong&gt;robust error handling&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Batch operations&lt;/strong&gt; for efficient playlist updates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h3&gt;
+&lt;p&gt;But how can you use &lt;strong&gt;SpotiAuto&lt;/strong&gt; in real life? Here are a few examples:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Discover new music&lt;/strong&gt;: Use &lt;strong&gt;SpotiAuto&lt;/strong&gt; to create a playlist for your favorite artist and stay up-to-date with their latest releases!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create a playlist for a specific genre&lt;/strong&gt;: Want to stay current with the latest hip-hop or electronic tracks? &lt;strong&gt;SpotiAuto&lt;/strong&gt; can help you do just that!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automate your music discovery&lt;/strong&gt;: Set up &lt;strong&gt;SpotiAuto&lt;/strong&gt; to update your playlists regularly, and discover new artists and tracks without lifting a finger!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;pro-tips-or-implementation-details&#34;&gt;Pro Tips or Implementation Details&lt;/h3&gt;
+&lt;p&gt;So, you want to get started with &lt;strong&gt;SpotiAuto&lt;/strong&gt;? Here are a few &lt;strong&gt;pro tips&lt;/strong&gt; to keep in mind:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make sure you have &lt;strong&gt;Python 3.6+&lt;/strong&gt; installed on your system&lt;/li&gt;
+&lt;li&gt;Create a &lt;strong&gt;Spotify Developer application&lt;/strong&gt; and obtain your Client ID and Client Secret&lt;/li&gt;
+&lt;li&gt;Install the required &lt;strong&gt;dependencies&lt;/strong&gt;, including Spotipy, PyYAML, and Tenacity&lt;/li&gt;
+&lt;li&gt;Configure your &lt;strong&gt;SpotiAuto&lt;/strong&gt; settings to your liking, including the lookback period and batch size&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;And there you have it - &lt;strong&gt;SpotiAuto&lt;/strong&gt; is an &lt;strong&gt;amazing tool&lt;/strong&gt; that&amp;rsquo;s sure to &lt;strong&gt;revolutionize your music streaming experience&lt;/strong&gt;! With its &lt;strong&gt;automated new release detection&lt;/strong&gt;, &lt;strong&gt;batch processing&lt;/strong&gt;, and &lt;strong&gt;resilient error handling&lt;/strong&gt;, it&amp;rsquo;s the perfect solution for anyone looking to &lt;strong&gt;take their music to the next level&lt;/strong&gt;. So what are you waiting for? &lt;strong&gt;Check out the repo&lt;/strong&gt;, &lt;strong&gt;star it&lt;/strong&gt;, and &lt;strong&gt;start automating your music playlists today&lt;/strong&gt;! Don&amp;rsquo;t miss out on this &lt;strong&gt;game-changing&lt;/strong&gt; opportunity to &lt;strong&gt;elevate your music streaming experience&lt;/strong&gt;!&lt;/p&gt;
+&lt;h3 id=&#34;code-highlights&#34;&gt;Code Highlights&lt;/h3&gt;
+&lt;p&gt;Check out this &lt;strong&gt;awesome code snippet&lt;/strong&gt; from the project:&lt;/p&gt;
+&lt;h4 id=&#34;mainpy&#34;&gt;main.py&lt;/h4&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;import logging
+import logging.config
+import yaml
+from pathlib import Path
+from spotiauto.automation import PlaylistAutomation
+
+def setup_logging():
+    Path(&amp;#34;logs&amp;#34;).mkdir(exist_ok=True)
+    with open(&amp;#34;config/config.yaml&amp;#34;, &amp;#39;r&amp;#39;) as f:
+        config = yaml.safe_load(f)
+// ... more code ...
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;project-details&#34;&gt;Project Details&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Repository: &lt;a href=&#34;https://github.com/RanL703/SpotiAuto&#34;&gt;SpotiAuto&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Created: 2025-03-14&lt;/li&gt;
+&lt;li&gt;Language: Python&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    </item>
+    
+    <item>
       <title>Agentos</title>
       <link>/posts/2025-03-12-agentos/</link>
       <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
