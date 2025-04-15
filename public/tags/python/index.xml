@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on TheRanLBlog!</title>
+    <link>//localhost:1313/tags/python/</link>
+    <description>Recent content in Python on TheRanLBlog!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2025 Ranadeep Laskar. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bloggeragent</title>
+      <link>//localhost:1313/posts/2025-03-14-bloggeragent/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-03-14-bloggeragent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linkedinagent</title>
+      <link>//localhost:1313/posts/2025-03-14-linkedinagent/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-03-14-linkedinagent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Spotiauto</title>
+      <link>//localhost:1313/posts/2025-03-14-spotiauto/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-03-14-spotiauto/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Agentos</title>
+      <link>//localhost:1313/posts/2025-03-12-agentos/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-03-12-agentos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jarvis Welcome Automation</title>
+      <link>//localhost:1313/posts/2025-03-12-jarvis-welcome-automation/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-03-12-jarvis-welcome-automation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blog 2 Tweet Agent</title>
+      <link>//localhost:1313/posts/2025-02-26-blog-2-tweet-agent/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-02-26-blog-2-tweet-agent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jarvis Welcome Automation</title>
+      <link>//localhost:1313/posts/2025-02-26-jarvis-welcome-automation/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-02-26-jarvis-welcome-automation/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

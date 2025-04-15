@@ -1,0 +1,31 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "TheRanLBlog!"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  # logo = "img/logo.png"
+  # secondaryLogo = "img/secondary-logo.png"
+  # description = "My awesome website"
+  copyright = "&copy; 2025 Ranadeep Laskar. All Rights Reserved."
+
+ [params.author]
+   name = "Ranadeep Laskar"
+#   email = "youremail@example.com"
+   image = "img/pfp.png"
+   imageQuality = 96
+   headline = "I write about tech, coding and AI. Mostly it ends up in Twitter, but sometimes also in here."
+#   bio = "A little bit about you"
+   links = [
+     { discord = "https://discord.gg/8hTkJc5gXd" },
+     { github = "https://github.com/RanL703" },
+     { linkedin = "https://www.linkedin.com/in/ranadeep-laskar-b50570322/" },
+     { twitch = "https://www.twitch.tv/notranl" },
+     { x-twitter = "https://twitter.com/this_is_ranl" },
+     { youtube = "https://youtube.com/@notranl" },
+   ]

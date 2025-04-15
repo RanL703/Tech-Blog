@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on TheRanLBlog!</title>
+    <link>//localhost:1313/tags/ai/</link>
+    <description>Recent content in AI on TheRanLBlog!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2025 Ranadeep Laskar. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 14 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Bloggeragent</title>
+      <link>//localhost:1313/posts/2025-03-14-bloggeragent/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-03-14-bloggeragent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linkedinagent</title>
+      <link>//localhost:1313/posts/2025-03-14-linkedinagent/</link>
+      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-03-14-linkedinagent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Agentos</title>
+      <link>//localhost:1313/posts/2025-03-12-agentos/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-03-12-agentos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jarvis Welcome Automation</title>
+      <link>//localhost:1313/posts/2025-03-12-jarvis-welcome-automation/</link>
+      <pubDate>Wed, 12 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-03-12-jarvis-welcome-automation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blog 2 Tweet Agent</title>
+      <link>//localhost:1313/posts/2025-02-26-blog-2-tweet-agent/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-02-26-blog-2-tweet-agent/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jarvis Welcome Automation</title>
+      <link>//localhost:1313/posts/2025-02-26-jarvis-welcome-automation/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/2025-02-26-jarvis-welcome-automation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>DeepResearch BUT Open-Source???</title>
+      <link>//localhost:1313/posts/deepresearch-but-open-source/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/deepresearch-but-open-source/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>My very own Local AI server!</title>
+      <link>//localhost:1313/posts/my-very-own-local-ai-server/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/my-very-own-local-ai-server/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

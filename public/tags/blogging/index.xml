@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogging on TheRanLBlog!</title>
+    <link>//localhost:1313/tags/blogging/</link>
+    <description>Recent content in Blogging on TheRanLBlog!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2025 Ranadeep Laskar. All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 08 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DeepResearch BUT Open-Source???</title>
+      <link>//localhost:1313/posts/deepresearch-but-open-source/</link>
+      <pubDate>Sat, 08 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/deepresearch-but-open-source/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>My very own Local AI server!</title>
+      <link>//localhost:1313/posts/my-very-own-local-ai-server/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/my-very-own-local-ai-server/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>My Personal Growth Blog Pipeline</title>
+      <link>//localhost:1313/posts/my-personal-growth-blog-pipeline/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/my-personal-growth-blog-pipeline/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
